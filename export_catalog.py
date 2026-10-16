@@ -1,5 +1,6 @@
 import json
 import requests
+new_string=""
 
 MCP_ENDPOINTS = {
     "postgres": "http://localhost:8001/mcp",
