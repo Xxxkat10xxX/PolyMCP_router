@@ -1,6 +1,7 @@
 import json
 import requests
 
+#test commit
 MCP_ENDPOINTS = {
     "postgres": "http://localhost:8001/mcp",
     "github": "http://localhost:8002/mcp",
