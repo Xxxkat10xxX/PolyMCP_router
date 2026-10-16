@@ -1,0 +1,50 @@
+version: '3.8'
+
+services:
+  postgres_db:
+    image: postgres:16-alpine
+    container_name: mcp_postgres_db
+    environment:
+      POSTGRES_DB: incidents_db
+      POSTGRES_USER: mcp_user
+      POSTGRES_PASSWORD: mcp_password
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./init-db:/docker-entrypoint-initdb.d
+    networks:
+      - mcp_network
+
+  postgres_mcp:
+    image: mcp/postgres:latest
+    container_name: mcp_postgres_server
+    environment:
+      POSTGRES_URL: postgresql://mcp_user:mcp_password@postgres_db:5432/incidents_db
+    depends_on:
+      - postgres_db
+    ports:
+      - "8001:8000"
+    networks:
+      - mcp_network
+
+  github_mcp:
+    image: mcp/github:latest
+    container_name: mcp_github_server
+    environment:
+      GITHUB_PERSONAL_ACCESS_TOKEN: ${GITHUB_TOKEN:-ghp_test_token_placeholder}
+    ports:
+      - "8002:8000"
+    networks:
+      - mcp_network
+
+  shell_mcp:
+    image: mcp/fetch:latest
+    container_name: mcp_shell_server
+    ports:
+      - "8003:8000"
+    networks:
+      - mcp_network
+
+networks:
+  mcp_network:
+    driver: bridge
