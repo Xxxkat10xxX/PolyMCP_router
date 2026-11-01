@@ -1,0 +1,3537 @@
+[
+  {
+    "tool_name": "db_query_select",
+    "server_name": "postgresql_mcp",
+    "description": "Enterprise MCP tool db_query_select on server postgresql_mcp",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "query": {
+          "type": "string",
+          "description": "Primary execution query or filter expression"
+        },
+        "repo": {
+          "type": "string",
+          "description": "Target repository full name"
+        },
+        "command": {
+          "type": "string",
+          "description": "Shell command string to execute"
+        },
+        "optional_param_1": {
+          "type": "string",
+          "description": "Extended configuration parameter #1 controlling retry policy for db_query_select."
+        },
+        "optional_param_2": {
+          "type": "string",
+          "description": "Extended configuration parameter #2 controlling retry policy for db_query_select."
+        },
+        "optional_param_3": {
+          "type": "string",
+          "description": "Extended configuration parameter #3 controlling retry policy for db_query_select."
+        },
+        "optional_param_4": {
+          "type": "string",
+          "description": "Extended configuration parameter #4 controlling retry policy for db_query_select."
+        },
+        "optional_param_5": {
+          "type": "string",
+          "description": "Extended configuration parameter #5 controlling retry policy for db_query_select."
+        },
+        "optional_param_6": {
+          "type": "string",
+          "description": "Extended configuration parameter #6 controlling retry policy for db_query_select."
+        },
+        "optional_param_7": {
+          "type": "string",
+          "description": "Extended configuration parameter #7 controlling retry policy for db_query_select."
+        },
+        "optional_param_8": {
+          "type": "string",
+          "description": "Extended configuration parameter #8 controlling retry policy for db_query_select."
+        },
+        "optional_param_9": {
+          "type": "string",
+          "description": "Extended configuration parameter #9 controlling retry policy for db_query_select."
+        },
+        "optional_param_10": {
+          "type": "string",
+          "description": "Extended configuration parameter #10 controlling retry policy for db_query_select."
+        },
+        "optional_param_11": {
+          "type": "string",
+          "description": "Extended configuration parameter #11 controlling retry policy for db_query_select."
+        },
+        "optional_param_12": {
+          "type": "string",
+          "description": "Extended configuration parameter #12 controlling retry policy for db_query_select."
+        },
+        "optional_param_13": {
+          "type": "string",
+          "description": "Extended configuration parameter #13 controlling retry policy for db_query_select."
+        },
+        "optional_param_14": {
+          "type": "string",
+          "description": "Extended configuration parameter #14 controlling retry policy for db_query_select."
+        },
+        "optional_param_15": {
+          "type": "string",
+          "description": "Extended configuration parameter #15 controlling retry policy for db_query_select."
+        },
+        "optional_param_16": {
+          "type": "string",
+          "description": "Extended configuration parameter #16 controlling retry policy for db_query_select."
+        },
+        "optional_param_17": {
+          "type": "string",
+          "description": "Extended configuration parameter #17 controlling retry policy for db_query_select."
+        },
+        "optional_param_18": {
+          "type": "string",
+          "description": "Extended configuration parameter #18 controlling retry policy for db_query_select."
+        },
+        "optional_param_19": {
+          "type": "string",
+          "description": "Extended configuration parameter #19 controlling retry policy for db_query_select."
+        }
+      },
+      "required": [
+        "query"
+      ]
+    }
+  },
+  {
+    "tool_name": "db_query_insert",
+    "server_name": "postgresql_mcp",
+    "description": "Enterprise MCP tool db_query_insert on server postgresql_mcp",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "query": {
+          "type": "string",
+          "description": "Primary execution query or filter expression"
+        },
+        "repo": {
+          "type": "string",
+          "description": "Target repository full name"
+        },
+        "command": {
+          "type": "string",
+          "description": "Shell command string to execute"
+        },
+        "optional_param_1": {
+          "type": "string",
+          "description": "Extended configuration parameter #1 controlling retry policy for db_query_insert."
+        },
+        "optional_param_2": {
+          "type": "string",
+          "description": "Extended configuration parameter #2 controlling retry policy for db_query_insert."
+        },
+        "optional_param_3": {
+          "type": "string",
+          "description": "Extended configuration parameter #3 controlling retry policy for db_query_insert."
+        },
+        "optional_param_4": {
+          "type": "string",
+          "description": "Extended configuration parameter #4 controlling retry policy for db_query_insert."
+        },
+        "optional_param_5": {
+          "type": "string",
+          "description": "Extended configuration parameter #5 controlling retry policy for db_query_insert."
+        },
+        "optional_param_6": {
+          "type": "string",
+          "description": "Extended configuration parameter #6 controlling retry policy for db_query_insert."
+        },
+        "optional_param_7": {
+          "type": "string",
+          "description": "Extended configuration parameter #7 controlling retry policy for db_query_insert."
+        },
+        "optional_param_8": {
+          "type": "string",
+          "description": "Extended configuration parameter #8 controlling retry policy for db_query_insert."
+        },
+        "optional_param_9": {
+          "type": "string",
+          "description": "Extended configuration parameter #9 controlling retry policy for db_query_insert."
+        },
+        "optional_param_10": {
+          "type": "string",
+          "description": "Extended configuration parameter #10 controlling retry policy for db_query_insert."
+        },
+        "optional_param_11": {
+          "type": "string",
+          "description": "Extended configuration parameter #11 controlling retry policy for db_query_insert."
+        },
+        "optional_param_12": {
+          "type": "string",
+          "description": "Extended configuration parameter #12 controlling retry policy for db_query_insert."
+        },
+        "optional_param_13": {
+          "type": "string",
+          "description": "Extended configuration parameter #13 controlling retry policy for db_query_insert."
+        },
+        "optional_param_14": {
+          "type": "string",
+          "description": "Extended configuration parameter #14 controlling retry policy for db_query_insert."
+        },
+        "optional_param_15": {
+          "type": "string",
+          "description": "Extended configuration parameter #15 controlling retry policy for db_query_insert."
+        },
+        "optional_param_16": {
+          "type": "string",
+          "description": "Extended configuration parameter #16 controlling retry policy for db_query_insert."
+        },
+        "optional_param_17": {
+          "type": "string",
+          "description": "Extended configuration parameter #17 controlling retry policy for db_query_insert."
+        },
+        "optional_param_18": {
+          "type": "string",
+          "description": "Extended configuration parameter #18 controlling retry policy for db_query_insert."
+        },
+        "optional_param_19": {
+          "type": "string",
+          "description": "Extended configuration parameter #19 controlling retry policy for db_query_insert."
+        }
+      },
+      "required": [
+        "query"
+      ]
+    }
+  },
+  {
+    "tool_name": "db_describe_table",
+    "server_name": "postgresql_mcp",
+    "description": "Enterprise MCP tool db_describe_table on server postgresql_mcp",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "query": {
+          "type": "string",
+          "description": "Primary execution query or filter expression"
+        },
+        "repo": {
+          "type": "string",
+          "description": "Target repository full name"
+        },
+        "command": {
+          "type": "string",
+          "description": "Shell command string to execute"
+        },
+        "optional_param_1": {
+          "type": "string",
+          "description": "Extended configuration parameter #1 controlling retry policy for db_describe_table."
+        },
+        "optional_param_2": {
+          "type": "string",
+          "description": "Extended configuration parameter #2 controlling retry policy for db_describe_table."
+        },
+        "optional_param_3": {
+          "type": "string",
+          "description": "Extended configuration parameter #3 controlling retry policy for db_describe_table."
+        },
+        "optional_param_4": {
+          "type": "string",
+          "description": "Extended configuration parameter #4 controlling retry policy for db_describe_table."
+        },
+        "optional_param_5": {
+          "type": "string",
+          "description": "Extended configuration parameter #5 controlling retry policy for db_describe_table."
+        },
+        "optional_param_6": {
+          "type": "string",
+          "description": "Extended configuration parameter #6 controlling retry policy for db_describe_table."
+        },
+        "optional_param_7": {
+          "type": "string",
+          "description": "Extended configuration parameter #7 controlling retry policy for db_describe_table."
+        },
+        "optional_param_8": {
+          "type": "string",
+          "description": "Extended configuration parameter #8 controlling retry policy for db_describe_table."
+        },
+        "optional_param_9": {
+          "type": "string",
+          "description": "Extended configuration parameter #9 controlling retry policy for db_describe_table."
+        },
+        "optional_param_10": {
+          "type": "string",
+          "description": "Extended configuration parameter #10 controlling retry policy for db_describe_table."
+        },
+        "optional_param_11": {
+          "type": "string",
+          "description": "Extended configuration parameter #11 controlling retry policy for db_describe_table."
+        },
+        "optional_param_12": {
+          "type": "string",
+          "description": "Extended configuration parameter #12 controlling retry policy for db_describe_table."
+        },
+        "optional_param_13": {
+          "type": "string",
+          "description": "Extended configuration parameter #13 controlling retry policy for db_describe_table."
+        },
+        "optional_param_14": {
+          "type": "string",
+          "description": "Extended configuration parameter #14 controlling retry policy for db_describe_table."
+        },
+        "optional_param_15": {
+          "type": "string",
+          "description": "Extended configuration parameter #15 controlling retry policy for db_describe_table."
+        },
+        "optional_param_16": {
+          "type": "string",
+          "description": "Extended configuration parameter #16 controlling retry policy for db_describe_table."
+        },
+        "optional_param_17": {
+          "type": "string",
+          "description": "Extended configuration parameter #17 controlling retry policy for db_describe_table."
+        },
+        "optional_param_18": {
+          "type": "string",
+          "description": "Extended configuration parameter #18 controlling retry policy for db_describe_table."
+        },
+        "optional_param_19": {
+          "type": "string",
+          "description": "Extended configuration parameter #19 controlling retry policy for db_describe_table."
+        }
+      },
+      "required": [
+        "query"
+      ]
+    }
+  },
+  {
+    "tool_name": "db_explain_plan",
+    "server_name": "postgresql_mcp",
+    "description": "Enterprise MCP tool db_explain_plan on server postgresql_mcp",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "query": {
+          "type": "string",
+          "description": "Primary execution query or filter expression"
+        },
+        "repo": {
+          "type": "string",
+          "description": "Target repository full name"
+        },
+        "command": {
+          "type": "string",
+          "description": "Shell command string to execute"
+        },
+        "optional_param_1": {
+          "type": "string",
+          "description": "Extended configuration parameter #1 controlling retry policy for db_explain_plan."
+        },
+        "optional_param_2": {
+          "type": "string",
+          "description": "Extended configuration parameter #2 controlling retry policy for db_explain_plan."
+        },
+        "optional_param_3": {
+          "type": "string",
+          "description": "Extended configuration parameter #3 controlling retry policy for db_explain_plan."
+        },
+        "optional_param_4": {
+          "type": "string",
+          "description": "Extended configuration parameter #4 controlling retry policy for db_explain_plan."
+        },
+        "optional_param_5": {
+          "type": "string",
+          "description": "Extended configuration parameter #5 controlling retry policy for db_explain_plan."
+        },
+        "optional_param_6": {
+          "type": "string",
+          "description": "Extended configuration parameter #6 controlling retry policy for db_explain_plan."
+        },
+        "optional_param_7": {
+          "type": "string",
+          "description": "Extended configuration parameter #7 controlling retry policy for db_explain_plan."
+        },
+        "optional_param_8": {
+          "type": "string",
+          "description": "Extended configuration parameter #8 controlling retry policy for db_explain_plan."
+        },
+        "optional_param_9": {
+          "type": "string",
+          "description": "Extended configuration parameter #9 controlling retry policy for db_explain_plan."
+        },
+        "optional_param_10": {
+          "type": "string",
+          "description": "Extended configuration parameter #10 controlling retry policy for db_explain_plan."
+        },
+        "optional_param_11": {
+          "type": "string",
+          "description": "Extended configuration parameter #11 controlling retry policy for db_explain_plan."
+        },
+        "optional_param_12": {
+          "type": "string",
+          "description": "Extended configuration parameter #12 controlling retry policy for db_explain_plan."
+        },
+        "optional_param_13": {
+          "type": "string",
+          "description": "Extended configuration parameter #13 controlling retry policy for db_explain_plan."
+        },
+        "optional_param_14": {
+          "type": "string",
+          "description": "Extended configuration parameter #14 controlling retry policy for db_explain_plan."
+        },
+        "optional_param_15": {
+          "type": "string",
+          "description": "Extended configuration parameter #15 controlling retry policy for db_explain_plan."
+        },
+        "optional_param_16": {
+          "type": "string",
+          "description": "Extended configuration parameter #16 controlling retry policy for db_explain_plan."
+        },
+        "optional_param_17": {
+          "type": "string",
+          "description": "Extended configuration parameter #17 controlling retry policy for db_explain_plan."
+        },
+        "optional_param_18": {
+          "type": "string",
+          "description": "Extended configuration parameter #18 controlling retry policy for db_explain_plan."
+        },
+        "optional_param_19": {
+          "type": "string",
+          "description": "Extended configuration parameter #19 controlling retry policy for db_explain_plan."
+        }
+      },
+      "required": [
+        "query"
+      ]
+    }
+  },
+  {
+    "tool_name": "db_vacuum_analyze",
+    "server_name": "postgresql_mcp",
+    "description": "Enterprise MCP tool db_vacuum_analyze on server postgresql_mcp",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "query": {
+          "type": "string",
+          "description": "Primary execution query or filter expression"
+        },
+        "repo": {
+          "type": "string",
+          "description": "Target repository full name"
+        },
+        "command": {
+          "type": "string",
+          "description": "Shell command string to execute"
+        },
+        "optional_param_1": {
+          "type": "string",
+          "description": "Extended configuration parameter #1 controlling retry policy for db_vacuum_analyze."
+        },
+        "optional_param_2": {
+          "type": "string",
+          "description": "Extended configuration parameter #2 controlling retry policy for db_vacuum_analyze."
+        },
+        "optional_param_3": {
+          "type": "string",
+          "description": "Extended configuration parameter #3 controlling retry policy for db_vacuum_analyze."
+        },
+        "optional_param_4": {
+          "type": "string",
+          "description": "Extended configuration parameter #4 controlling retry policy for db_vacuum_analyze."
+        },
+        "optional_param_5": {
+          "type": "string",
+          "description": "Extended configuration parameter #5 controlling retry policy for db_vacuum_analyze."
+        },
+        "optional_param_6": {
+          "type": "string",
+          "description": "Extended configuration parameter #6 controlling retry policy for db_vacuum_analyze."
+        },
+        "optional_param_7": {
+          "type": "string",
+          "description": "Extended configuration parameter #7 controlling retry policy for db_vacuum_analyze."
+        },
+        "optional_param_8": {
+          "type": "string",
+          "description": "Extended configuration parameter #8 controlling retry policy for db_vacuum_analyze."
+        },
+        "optional_param_9": {
+          "type": "string",
+          "description": "Extended configuration parameter #9 controlling retry policy for db_vacuum_analyze."
+        },
+        "optional_param_10": {
+          "type": "string",
+          "description": "Extended configuration parameter #10 controlling retry policy for db_vacuum_analyze."
+        },
+        "optional_param_11": {
+          "type": "string",
+          "description": "Extended configuration parameter #11 controlling retry policy for db_vacuum_analyze."
+        },
+        "optional_param_12": {
+          "type": "string",
+          "description": "Extended configuration parameter #12 controlling retry policy for db_vacuum_analyze."
+        },
+        "optional_param_13": {
+          "type": "string",
+          "description": "Extended configuration parameter #13 controlling retry policy for db_vacuum_analyze."
+        },
+        "optional_param_14": {
+          "type": "string",
+          "description": "Extended configuration parameter #14 controlling retry policy for db_vacuum_analyze."
+        },
+        "optional_param_15": {
+          "type": "string",
+          "description": "Extended configuration parameter #15 controlling retry policy for db_vacuum_analyze."
+        },
+        "optional_param_16": {
+          "type": "string",
+          "description": "Extended configuration parameter #16 controlling retry policy for db_vacuum_analyze."
+        },
+        "optional_param_17": {
+          "type": "string",
+          "description": "Extended configuration parameter #17 controlling retry policy for db_vacuum_analyze."
+        },
+        "optional_param_18": {
+          "type": "string",
+          "description": "Extended configuration parameter #18 controlling retry policy for db_vacuum_analyze."
+        },
+        "optional_param_19": {
+          "type": "string",
+          "description": "Extended configuration parameter #19 controlling retry policy for db_vacuum_analyze."
+        }
+      },
+      "required": [
+        "query"
+      ]
+    }
+  },
+  {
+    "tool_name": "db_manage_index",
+    "server_name": "postgresql_mcp",
+    "description": "Enterprise MCP tool db_manage_index on server postgresql_mcp",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "query": {
+          "type": "string",
+          "description": "Primary execution query or filter expression"
+        },
+        "repo": {
+          "type": "string",
+          "description": "Target repository full name"
+        },
+        "command": {
+          "type": "string",
+          "description": "Shell command string to execute"
+        },
+        "optional_param_1": {
+          "type": "string",
+          "description": "Extended configuration parameter #1 controlling retry policy for db_manage_index."
+        },
+        "optional_param_2": {
+          "type": "string",
+          "description": "Extended configuration parameter #2 controlling retry policy for db_manage_index."
+        },
+        "optional_param_3": {
+          "type": "string",
+          "description": "Extended configuration parameter #3 controlling retry policy for db_manage_index."
+        },
+        "optional_param_4": {
+          "type": "string",
+          "description": "Extended configuration parameter #4 controlling retry policy for db_manage_index."
+        },
+        "optional_param_5": {
+          "type": "string",
+          "description": "Extended configuration parameter #5 controlling retry policy for db_manage_index."
+        },
+        "optional_param_6": {
+          "type": "string",
+          "description": "Extended configuration parameter #6 controlling retry policy for db_manage_index."
+        },
+        "optional_param_7": {
+          "type": "string",
+          "description": "Extended configuration parameter #7 controlling retry policy for db_manage_index."
+        },
+        "optional_param_8": {
+          "type": "string",
+          "description": "Extended configuration parameter #8 controlling retry policy for db_manage_index."
+        },
+        "optional_param_9": {
+          "type": "string",
+          "description": "Extended configuration parameter #9 controlling retry policy for db_manage_index."
+        },
+        "optional_param_10": {
+          "type": "string",
+          "description": "Extended configuration parameter #10 controlling retry policy for db_manage_index."
+        },
+        "optional_param_11": {
+          "type": "string",
+          "description": "Extended configuration parameter #11 controlling retry policy for db_manage_index."
+        },
+        "optional_param_12": {
+          "type": "string",
+          "description": "Extended configuration parameter #12 controlling retry policy for db_manage_index."
+        },
+        "optional_param_13": {
+          "type": "string",
+          "description": "Extended configuration parameter #13 controlling retry policy for db_manage_index."
+        },
+        "optional_param_14": {
+          "type": "string",
+          "description": "Extended configuration parameter #14 controlling retry policy for db_manage_index."
+        },
+        "optional_param_15": {
+          "type": "string",
+          "description": "Extended configuration parameter #15 controlling retry policy for db_manage_index."
+        },
+        "optional_param_16": {
+          "type": "string",
+          "description": "Extended configuration parameter #16 controlling retry policy for db_manage_index."
+        },
+        "optional_param_17": {
+          "type": "string",
+          "description": "Extended configuration parameter #17 controlling retry policy for db_manage_index."
+        },
+        "optional_param_18": {
+          "type": "string",
+          "description": "Extended configuration parameter #18 controlling retry policy for db_manage_index."
+        },
+        "optional_param_19": {
+          "type": "string",
+          "description": "Extended configuration parameter #19 controlling retry policy for db_manage_index."
+        }
+      },
+      "required": [
+        "query"
+      ]
+    }
+  },
+  {
+    "tool_name": "db_list_schemas",
+    "server_name": "postgresql_mcp",
+    "description": "Enterprise MCP tool db_list_schemas on server postgresql_mcp",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "query": {
+          "type": "string",
+          "description": "Primary execution query or filter expression"
+        },
+        "repo": {
+          "type": "string",
+          "description": "Target repository full name"
+        },
+        "command": {
+          "type": "string",
+          "description": "Shell command string to execute"
+        },
+        "optional_param_1": {
+          "type": "string",
+          "description": "Extended configuration parameter #1 controlling retry policy for db_list_schemas."
+        },
+        "optional_param_2": {
+          "type": "string",
+          "description": "Extended configuration parameter #2 controlling retry policy for db_list_schemas."
+        },
+        "optional_param_3": {
+          "type": "string",
+          "description": "Extended configuration parameter #3 controlling retry policy for db_list_schemas."
+        },
+        "optional_param_4": {
+          "type": "string",
+          "description": "Extended configuration parameter #4 controlling retry policy for db_list_schemas."
+        },
+        "optional_param_5": {
+          "type": "string",
+          "description": "Extended configuration parameter #5 controlling retry policy for db_list_schemas."
+        },
+        "optional_param_6": {
+          "type": "string",
+          "description": "Extended configuration parameter #6 controlling retry policy for db_list_schemas."
+        },
+        "optional_param_7": {
+          "type": "string",
+          "description": "Extended configuration parameter #7 controlling retry policy for db_list_schemas."
+        },
+        "optional_param_8": {
+          "type": "string",
+          "description": "Extended configuration parameter #8 controlling retry policy for db_list_schemas."
+        },
+        "optional_param_9": {
+          "type": "string",
+          "description": "Extended configuration parameter #9 controlling retry policy for db_list_schemas."
+        },
+        "optional_param_10": {
+          "type": "string",
+          "description": "Extended configuration parameter #10 controlling retry policy for db_list_schemas."
+        },
+        "optional_param_11": {
+          "type": "string",
+          "description": "Extended configuration parameter #11 controlling retry policy for db_list_schemas."
+        },
+        "optional_param_12": {
+          "type": "string",
+          "description": "Extended configuration parameter #12 controlling retry policy for db_list_schemas."
+        },
+        "optional_param_13": {
+          "type": "string",
+          "description": "Extended configuration parameter #13 controlling retry policy for db_list_schemas."
+        },
+        "optional_param_14": {
+          "type": "string",
+          "description": "Extended configuration parameter #14 controlling retry policy for db_list_schemas."
+        },
+        "optional_param_15": {
+          "type": "string",
+          "description": "Extended configuration parameter #15 controlling retry policy for db_list_schemas."
+        },
+        "optional_param_16": {
+          "type": "string",
+          "description": "Extended configuration parameter #16 controlling retry policy for db_list_schemas."
+        },
+        "optional_param_17": {
+          "type": "string",
+          "description": "Extended configuration parameter #17 controlling retry policy for db_list_schemas."
+        },
+        "optional_param_18": {
+          "type": "string",
+          "description": "Extended configuration parameter #18 controlling retry policy for db_list_schemas."
+        },
+        "optional_param_19": {
+          "type": "string",
+          "description": "Extended configuration parameter #19 controlling retry policy for db_list_schemas."
+        }
+      },
+      "required": [
+        "query"
+      ]
+    }
+  },
+  {
+    "tool_name": "db_active_locks",
+    "server_name": "postgresql_mcp",
+    "description": "Enterprise MCP tool db_active_locks on server postgresql_mcp",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "query": {
+          "type": "string",
+          "description": "Primary execution query or filter expression"
+        },
+        "repo": {
+          "type": "string",
+          "description": "Target repository full name"
+        },
+        "command": {
+          "type": "string",
+          "description": "Shell command string to execute"
+        },
+        "optional_param_1": {
+          "type": "string",
+          "description": "Extended configuration parameter #1 controlling retry policy for db_active_locks."
+        },
+        "optional_param_2": {
+          "type": "string",
+          "description": "Extended configuration parameter #2 controlling retry policy for db_active_locks."
+        },
+        "optional_param_3": {
+          "type": "string",
+          "description": "Extended configuration parameter #3 controlling retry policy for db_active_locks."
+        },
+        "optional_param_4": {
+          "type": "string",
+          "description": "Extended configuration parameter #4 controlling retry policy for db_active_locks."
+        },
+        "optional_param_5": {
+          "type": "string",
+          "description": "Extended configuration parameter #5 controlling retry policy for db_active_locks."
+        },
+        "optional_param_6": {
+          "type": "string",
+          "description": "Extended configuration parameter #6 controlling retry policy for db_active_locks."
+        },
+        "optional_param_7": {
+          "type": "string",
+          "description": "Extended configuration parameter #7 controlling retry policy for db_active_locks."
+        },
+        "optional_param_8": {
+          "type": "string",
+          "description": "Extended configuration parameter #8 controlling retry policy for db_active_locks."
+        },
+        "optional_param_9": {
+          "type": "string",
+          "description": "Extended configuration parameter #9 controlling retry policy for db_active_locks."
+        },
+        "optional_param_10": {
+          "type": "string",
+          "description": "Extended configuration parameter #10 controlling retry policy for db_active_locks."
+        },
+        "optional_param_11": {
+          "type": "string",
+          "description": "Extended configuration parameter #11 controlling retry policy for db_active_locks."
+        },
+        "optional_param_12": {
+          "type": "string",
+          "description": "Extended configuration parameter #12 controlling retry policy for db_active_locks."
+        },
+        "optional_param_13": {
+          "type": "string",
+          "description": "Extended configuration parameter #13 controlling retry policy for db_active_locks."
+        },
+        "optional_param_14": {
+          "type": "string",
+          "description": "Extended configuration parameter #14 controlling retry policy for db_active_locks."
+        },
+        "optional_param_15": {
+          "type": "string",
+          "description": "Extended configuration parameter #15 controlling retry policy for db_active_locks."
+        },
+        "optional_param_16": {
+          "type": "string",
+          "description": "Extended configuration parameter #16 controlling retry policy for db_active_locks."
+        },
+        "optional_param_17": {
+          "type": "string",
+          "description": "Extended configuration parameter #17 controlling retry policy for db_active_locks."
+        },
+        "optional_param_18": {
+          "type": "string",
+          "description": "Extended configuration parameter #18 controlling retry policy for db_active_locks."
+        },
+        "optional_param_19": {
+          "type": "string",
+          "description": "Extended configuration parameter #19 controlling retry policy for db_active_locks."
+        }
+      },
+      "required": [
+        "query"
+      ]
+    }
+  },
+  {
+    "tool_name": "db_kill_backend",
+    "server_name": "postgresql_mcp",
+    "description": "Enterprise MCP tool db_kill_backend on server postgresql_mcp",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "query": {
+          "type": "string",
+          "description": "Primary execution query or filter expression"
+        },
+        "repo": {
+          "type": "string",
+          "description": "Target repository full name"
+        },
+        "command": {
+          "type": "string",
+          "description": "Shell command string to execute"
+        },
+        "optional_param_1": {
+          "type": "string",
+          "description": "Extended configuration parameter #1 controlling retry policy for db_kill_backend."
+        },
+        "optional_param_2": {
+          "type": "string",
+          "description": "Extended configuration parameter #2 controlling retry policy for db_kill_backend."
+        },
+        "optional_param_3": {
+          "type": "string",
+          "description": "Extended configuration parameter #3 controlling retry policy for db_kill_backend."
+        },
+        "optional_param_4": {
+          "type": "string",
+          "description": "Extended configuration parameter #4 controlling retry policy for db_kill_backend."
+        },
+        "optional_param_5": {
+          "type": "string",
+          "description": "Extended configuration parameter #5 controlling retry policy for db_kill_backend."
+        },
+        "optional_param_6": {
+          "type": "string",
+          "description": "Extended configuration parameter #6 controlling retry policy for db_kill_backend."
+        },
+        "optional_param_7": {
+          "type": "string",
+          "description": "Extended configuration parameter #7 controlling retry policy for db_kill_backend."
+        },
+        "optional_param_8": {
+          "type": "string",
+          "description": "Extended configuration parameter #8 controlling retry policy for db_kill_backend."
+        },
+        "optional_param_9": {
+          "type": "string",
+          "description": "Extended configuration parameter #9 controlling retry policy for db_kill_backend."
+        },
+        "optional_param_10": {
+          "type": "string",
+          "description": "Extended configuration parameter #10 controlling retry policy for db_kill_backend."
+        },
+        "optional_param_11": {
+          "type": "string",
+          "description": "Extended configuration parameter #11 controlling retry policy for db_kill_backend."
+        },
+        "optional_param_12": {
+          "type": "string",
+          "description": "Extended configuration parameter #12 controlling retry policy for db_kill_backend."
+        },
+        "optional_param_13": {
+          "type": "string",
+          "description": "Extended configuration parameter #13 controlling retry policy for db_kill_backend."
+        },
+        "optional_param_14": {
+          "type": "string",
+          "description": "Extended configuration parameter #14 controlling retry policy for db_kill_backend."
+        },
+        "optional_param_15": {
+          "type": "string",
+          "description": "Extended configuration parameter #15 controlling retry policy for db_kill_backend."
+        },
+        "optional_param_16": {
+          "type": "string",
+          "description": "Extended configuration parameter #16 controlling retry policy for db_kill_backend."
+        },
+        "optional_param_17": {
+          "type": "string",
+          "description": "Extended configuration parameter #17 controlling retry policy for db_kill_backend."
+        },
+        "optional_param_18": {
+          "type": "string",
+          "description": "Extended configuration parameter #18 controlling retry policy for db_kill_backend."
+        },
+        "optional_param_19": {
+          "type": "string",
+          "description": "Extended configuration parameter #19 controlling retry policy for db_kill_backend."
+        }
+      },
+      "required": [
+        "query"
+      ]
+    }
+  },
+  {
+    "tool_name": "db_replication_lag",
+    "server_name": "postgresql_mcp",
+    "description": "Enterprise MCP tool db_replication_lag on server postgresql_mcp",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "query": {
+          "type": "string",
+          "description": "Primary execution query or filter expression"
+        },
+        "repo": {
+          "type": "string",
+          "description": "Target repository full name"
+        },
+        "command": {
+          "type": "string",
+          "description": "Shell command string to execute"
+        },
+        "optional_param_1": {
+          "type": "string",
+          "description": "Extended configuration parameter #1 controlling retry policy for db_replication_lag."
+        },
+        "optional_param_2": {
+          "type": "string",
+          "description": "Extended configuration parameter #2 controlling retry policy for db_replication_lag."
+        },
+        "optional_param_3": {
+          "type": "string",
+          "description": "Extended configuration parameter #3 controlling retry policy for db_replication_lag."
+        },
+        "optional_param_4": {
+          "type": "string",
+          "description": "Extended configuration parameter #4 controlling retry policy for db_replication_lag."
+        },
+        "optional_param_5": {
+          "type": "string",
+          "description": "Extended configuration parameter #5 controlling retry policy for db_replication_lag."
+        },
+        "optional_param_6": {
+          "type": "string",
+          "description": "Extended configuration parameter #6 controlling retry policy for db_replication_lag."
+        },
+        "optional_param_7": {
+          "type": "string",
+          "description": "Extended configuration parameter #7 controlling retry policy for db_replication_lag."
+        },
+        "optional_param_8": {
+          "type": "string",
+          "description": "Extended configuration parameter #8 controlling retry policy for db_replication_lag."
+        },
+        "optional_param_9": {
+          "type": "string",
+          "description": "Extended configuration parameter #9 controlling retry policy for db_replication_lag."
+        },
+        "optional_param_10": {
+          "type": "string",
+          "description": "Extended configuration parameter #10 controlling retry policy for db_replication_lag."
+        },
+        "optional_param_11": {
+          "type": "string",
+          "description": "Extended configuration parameter #11 controlling retry policy for db_replication_lag."
+        },
+        "optional_param_12": {
+          "type": "string",
+          "description": "Extended configuration parameter #12 controlling retry policy for db_replication_lag."
+        },
+        "optional_param_13": {
+          "type": "string",
+          "description": "Extended configuration parameter #13 controlling retry policy for db_replication_lag."
+        },
+        "optional_param_14": {
+          "type": "string",
+          "description": "Extended configuration parameter #14 controlling retry policy for db_replication_lag."
+        },
+        "optional_param_15": {
+          "type": "string",
+          "description": "Extended configuration parameter #15 controlling retry policy for db_replication_lag."
+        },
+        "optional_param_16": {
+          "type": "string",
+          "description": "Extended configuration parameter #16 controlling retry policy for db_replication_lag."
+        },
+        "optional_param_17": {
+          "type": "string",
+          "description": "Extended configuration parameter #17 controlling retry policy for db_replication_lag."
+        },
+        "optional_param_18": {
+          "type": "string",
+          "description": "Extended configuration parameter #18 controlling retry policy for db_replication_lag."
+        },
+        "optional_param_19": {
+          "type": "string",
+          "description": "Extended configuration parameter #19 controlling retry policy for db_replication_lag."
+        }
+      },
+      "required": [
+        "query"
+      ]
+    }
+  },
+  {
+    "tool_name": "db_table_size",
+    "server_name": "postgresql_mcp",
+    "description": "Enterprise MCP tool db_table_size on server postgresql_mcp",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "query": {
+          "type": "string",
+          "description": "Primary execution query or filter expression"
+        },
+        "repo": {
+          "type": "string",
+          "description": "Target repository full name"
+        },
+        "command": {
+          "type": "string",
+          "description": "Shell command string to execute"
+        },
+        "optional_param_1": {
+          "type": "string",
+          "description": "Extended configuration parameter #1 controlling retry policy for db_table_size."
+        },
+        "optional_param_2": {
+          "type": "string",
+          "description": "Extended configuration parameter #2 controlling retry policy for db_table_size."
+        },
+        "optional_param_3": {
+          "type": "string",
+          "description": "Extended configuration parameter #3 controlling retry policy for db_table_size."
+        },
+        "optional_param_4": {
+          "type": "string",
+          "description": "Extended configuration parameter #4 controlling retry policy for db_table_size."
+        },
+        "optional_param_5": {
+          "type": "string",
+          "description": "Extended configuration parameter #5 controlling retry policy for db_table_size."
+        },
+        "optional_param_6": {
+          "type": "string",
+          "description": "Extended configuration parameter #6 controlling retry policy for db_table_size."
+        },
+        "optional_param_7": {
+          "type": "string",
+          "description": "Extended configuration parameter #7 controlling retry policy for db_table_size."
+        },
+        "optional_param_8": {
+          "type": "string",
+          "description": "Extended configuration parameter #8 controlling retry policy for db_table_size."
+        },
+        "optional_param_9": {
+          "type": "string",
+          "description": "Extended configuration parameter #9 controlling retry policy for db_table_size."
+        },
+        "optional_param_10": {
+          "type": "string",
+          "description": "Extended configuration parameter #10 controlling retry policy for db_table_size."
+        },
+        "optional_param_11": {
+          "type": "string",
+          "description": "Extended configuration parameter #11 controlling retry policy for db_table_size."
+        },
+        "optional_param_12": {
+          "type": "string",
+          "description": "Extended configuration parameter #12 controlling retry policy for db_table_size."
+        },
+        "optional_param_13": {
+          "type": "string",
+          "description": "Extended configuration parameter #13 controlling retry policy for db_table_size."
+        },
+        "optional_param_14": {
+          "type": "string",
+          "description": "Extended configuration parameter #14 controlling retry policy for db_table_size."
+        },
+        "optional_param_15": {
+          "type": "string",
+          "description": "Extended configuration parameter #15 controlling retry policy for db_table_size."
+        },
+        "optional_param_16": {
+          "type": "string",
+          "description": "Extended configuration parameter #16 controlling retry policy for db_table_size."
+        },
+        "optional_param_17": {
+          "type": "string",
+          "description": "Extended configuration parameter #17 controlling retry policy for db_table_size."
+        },
+        "optional_param_18": {
+          "type": "string",
+          "description": "Extended configuration parameter #18 controlling retry policy for db_table_size."
+        },
+        "optional_param_19": {
+          "type": "string",
+          "description": "Extended configuration parameter #19 controlling retry policy for db_table_size."
+        }
+      },
+      "required": [
+        "query"
+      ]
+    }
+  },
+  {
+    "tool_name": "db_export_csv",
+    "server_name": "postgresql_mcp",
+    "description": "Enterprise MCP tool db_export_csv on server postgresql_mcp",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "query": {
+          "type": "string",
+          "description": "Primary execution query or filter expression"
+        },
+        "repo": {
+          "type": "string",
+          "description": "Target repository full name"
+        },
+        "command": {
+          "type": "string",
+          "description": "Shell command string to execute"
+        },
+        "optional_param_1": {
+          "type": "string",
+          "description": "Extended configuration parameter #1 controlling retry policy for db_export_csv."
+        },
+        "optional_param_2": {
+          "type": "string",
+          "description": "Extended configuration parameter #2 controlling retry policy for db_export_csv."
+        },
+        "optional_param_3": {
+          "type": "string",
+          "description": "Extended configuration parameter #3 controlling retry policy for db_export_csv."
+        },
+        "optional_param_4": {
+          "type": "string",
+          "description": "Extended configuration parameter #4 controlling retry policy for db_export_csv."
+        },
+        "optional_param_5": {
+          "type": "string",
+          "description": "Extended configuration parameter #5 controlling retry policy for db_export_csv."
+        },
+        "optional_param_6": {
+          "type": "string",
+          "description": "Extended configuration parameter #6 controlling retry policy for db_export_csv."
+        },
+        "optional_param_7": {
+          "type": "string",
+          "description": "Extended configuration parameter #7 controlling retry policy for db_export_csv."
+        },
+        "optional_param_8": {
+          "type": "string",
+          "description": "Extended configuration parameter #8 controlling retry policy for db_export_csv."
+        },
+        "optional_param_9": {
+          "type": "string",
+          "description": "Extended configuration parameter #9 controlling retry policy for db_export_csv."
+        },
+        "optional_param_10": {
+          "type": "string",
+          "description": "Extended configuration parameter #10 controlling retry policy for db_export_csv."
+        },
+        "optional_param_11": {
+          "type": "string",
+          "description": "Extended configuration parameter #11 controlling retry policy for db_export_csv."
+        },
+        "optional_param_12": {
+          "type": "string",
+          "description": "Extended configuration parameter #12 controlling retry policy for db_export_csv."
+        },
+        "optional_param_13": {
+          "type": "string",
+          "description": "Extended configuration parameter #13 controlling retry policy for db_export_csv."
+        },
+        "optional_param_14": {
+          "type": "string",
+          "description": "Extended configuration parameter #14 controlling retry policy for db_export_csv."
+        },
+        "optional_param_15": {
+          "type": "string",
+          "description": "Extended configuration parameter #15 controlling retry policy for db_export_csv."
+        },
+        "optional_param_16": {
+          "type": "string",
+          "description": "Extended configuration parameter #16 controlling retry policy for db_export_csv."
+        },
+        "optional_param_17": {
+          "type": "string",
+          "description": "Extended configuration parameter #17 controlling retry policy for db_export_csv."
+        },
+        "optional_param_18": {
+          "type": "string",
+          "description": "Extended configuration parameter #18 controlling retry policy for db_export_csv."
+        },
+        "optional_param_19": {
+          "type": "string",
+          "description": "Extended configuration parameter #19 controlling retry policy for db_export_csv."
+        }
+      },
+      "required": [
+        "query"
+      ]
+    }
+  },
+  {
+    "tool_name": "gh_search_issues",
+    "server_name": "github_mcp",
+    "description": "Enterprise MCP tool gh_search_issues on server github_mcp",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "query": {
+          "type": "string",
+          "description": "Primary execution query or filter expression"
+        },
+        "repo": {
+          "type": "string",
+          "description": "Target repository full name"
+        },
+        "command": {
+          "type": "string",
+          "description": "Shell command string to execute"
+        },
+        "optional_param_1": {
+          "type": "string",
+          "description": "Extended configuration parameter #1 controlling retry policy for gh_search_issues."
+        },
+        "optional_param_2": {
+          "type": "string",
+          "description": "Extended configuration parameter #2 controlling retry policy for gh_search_issues."
+        },
+        "optional_param_3": {
+          "type": "string",
+          "description": "Extended configuration parameter #3 controlling retry policy for gh_search_issues."
+        },
+        "optional_param_4": {
+          "type": "string",
+          "description": "Extended configuration parameter #4 controlling retry policy for gh_search_issues."
+        },
+        "optional_param_5": {
+          "type": "string",
+          "description": "Extended configuration parameter #5 controlling retry policy for gh_search_issues."
+        },
+        "optional_param_6": {
+          "type": "string",
+          "description": "Extended configuration parameter #6 controlling retry policy for gh_search_issues."
+        },
+        "optional_param_7": {
+          "type": "string",
+          "description": "Extended configuration parameter #7 controlling retry policy for gh_search_issues."
+        },
+        "optional_param_8": {
+          "type": "string",
+          "description": "Extended configuration parameter #8 controlling retry policy for gh_search_issues."
+        },
+        "optional_param_9": {
+          "type": "string",
+          "description": "Extended configuration parameter #9 controlling retry policy for gh_search_issues."
+        },
+        "optional_param_10": {
+          "type": "string",
+          "description": "Extended configuration parameter #10 controlling retry policy for gh_search_issues."
+        },
+        "optional_param_11": {
+          "type": "string",
+          "description": "Extended configuration parameter #11 controlling retry policy for gh_search_issues."
+        },
+        "optional_param_12": {
+          "type": "string",
+          "description": "Extended configuration parameter #12 controlling retry policy for gh_search_issues."
+        },
+        "optional_param_13": {
+          "type": "string",
+          "description": "Extended configuration parameter #13 controlling retry policy for gh_search_issues."
+        },
+        "optional_param_14": {
+          "type": "string",
+          "description": "Extended configuration parameter #14 controlling retry policy for gh_search_issues."
+        },
+        "optional_param_15": {
+          "type": "string",
+          "description": "Extended configuration parameter #15 controlling retry policy for gh_search_issues."
+        },
+        "optional_param_16": {
+          "type": "string",
+          "description": "Extended configuration parameter #16 controlling retry policy for gh_search_issues."
+        },
+        "optional_param_17": {
+          "type": "string",
+          "description": "Extended configuration parameter #17 controlling retry policy for gh_search_issues."
+        },
+        "optional_param_18": {
+          "type": "string",
+          "description": "Extended configuration parameter #18 controlling retry policy for gh_search_issues."
+        },
+        "optional_param_19": {
+          "type": "string",
+          "description": "Extended configuration parameter #19 controlling retry policy for gh_search_issues."
+        }
+      },
+      "required": [
+        "query"
+      ]
+    }
+  },
+  {
+    "tool_name": "gh_get_issue_details",
+    "server_name": "github_mcp",
+    "description": "Enterprise MCP tool gh_get_issue_details on server github_mcp",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "query": {
+          "type": "string",
+          "description": "Primary execution query or filter expression"
+        },
+        "repo": {
+          "type": "string",
+          "description": "Target repository full name"
+        },
+        "command": {
+          "type": "string",
+          "description": "Shell command string to execute"
+        },
+        "optional_param_1": {
+          "type": "string",
+          "description": "Extended configuration parameter #1 controlling retry policy for gh_get_issue_details."
+        },
+        "optional_param_2": {
+          "type": "string",
+          "description": "Extended configuration parameter #2 controlling retry policy for gh_get_issue_details."
+        },
+        "optional_param_3": {
+          "type": "string",
+          "description": "Extended configuration parameter #3 controlling retry policy for gh_get_issue_details."
+        },
+        "optional_param_4": {
+          "type": "string",
+          "description": "Extended configuration parameter #4 controlling retry policy for gh_get_issue_details."
+        },
+        "optional_param_5": {
+          "type": "string",
+          "description": "Extended configuration parameter #5 controlling retry policy for gh_get_issue_details."
+        },
+        "optional_param_6": {
+          "type": "string",
+          "description": "Extended configuration parameter #6 controlling retry policy for gh_get_issue_details."
+        },
+        "optional_param_7": {
+          "type": "string",
+          "description": "Extended configuration parameter #7 controlling retry policy for gh_get_issue_details."
+        },
+        "optional_param_8": {
+          "type": "string",
+          "description": "Extended configuration parameter #8 controlling retry policy for gh_get_issue_details."
+        },
+        "optional_param_9": {
+          "type": "string",
+          "description": "Extended configuration parameter #9 controlling retry policy for gh_get_issue_details."
+        },
+        "optional_param_10": {
+          "type": "string",
+          "description": "Extended configuration parameter #10 controlling retry policy for gh_get_issue_details."
+        },
+        "optional_param_11": {
+          "type": "string",
+          "description": "Extended configuration parameter #11 controlling retry policy for gh_get_issue_details."
+        },
+        "optional_param_12": {
+          "type": "string",
+          "description": "Extended configuration parameter #12 controlling retry policy for gh_get_issue_details."
+        },
+        "optional_param_13": {
+          "type": "string",
+          "description": "Extended configuration parameter #13 controlling retry policy for gh_get_issue_details."
+        },
+        "optional_param_14": {
+          "type": "string",
+          "description": "Extended configuration parameter #14 controlling retry policy for gh_get_issue_details."
+        },
+        "optional_param_15": {
+          "type": "string",
+          "description": "Extended configuration parameter #15 controlling retry policy for gh_get_issue_details."
+        },
+        "optional_param_16": {
+          "type": "string",
+          "description": "Extended configuration parameter #16 controlling retry policy for gh_get_issue_details."
+        },
+        "optional_param_17": {
+          "type": "string",
+          "description": "Extended configuration parameter #17 controlling retry policy for gh_get_issue_details."
+        },
+        "optional_param_18": {
+          "type": "string",
+          "description": "Extended configuration parameter #18 controlling retry policy for gh_get_issue_details."
+        },
+        "optional_param_19": {
+          "type": "string",
+          "description": "Extended configuration parameter #19 controlling retry policy for gh_get_issue_details."
+        }
+      },
+      "required": [
+        "query"
+      ]
+    }
+  },
+  {
+    "tool_name": "gh_create_issue",
+    "server_name": "github_mcp",
+    "description": "Enterprise MCP tool gh_create_issue on server github_mcp",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "query": {
+          "type": "string",
+          "description": "Primary execution query or filter expression"
+        },
+        "repo": {
+          "type": "string",
+          "description": "Target repository full name"
+        },
+        "command": {
+          "type": "string",
+          "description": "Shell command string to execute"
+        },
+        "optional_param_1": {
+          "type": "string",
+          "description": "Extended configuration parameter #1 controlling retry policy for gh_create_issue."
+        },
+        "optional_param_2": {
+          "type": "string",
+          "description": "Extended configuration parameter #2 controlling retry policy for gh_create_issue."
+        },
+        "optional_param_3": {
+          "type": "string",
+          "description": "Extended configuration parameter #3 controlling retry policy for gh_create_issue."
+        },
+        "optional_param_4": {
+          "type": "string",
+          "description": "Extended configuration parameter #4 controlling retry policy for gh_create_issue."
+        },
+        "optional_param_5": {
+          "type": "string",
+          "description": "Extended configuration parameter #5 controlling retry policy for gh_create_issue."
+        },
+        "optional_param_6": {
+          "type": "string",
+          "description": "Extended configuration parameter #6 controlling retry policy for gh_create_issue."
+        },
+        "optional_param_7": {
+          "type": "string",
+          "description": "Extended configuration parameter #7 controlling retry policy for gh_create_issue."
+        },
+        "optional_param_8": {
+          "type": "string",
+          "description": "Extended configuration parameter #8 controlling retry policy for gh_create_issue."
+        },
+        "optional_param_9": {
+          "type": "string",
+          "description": "Extended configuration parameter #9 controlling retry policy for gh_create_issue."
+        },
+        "optional_param_10": {
+          "type": "string",
+          "description": "Extended configuration parameter #10 controlling retry policy for gh_create_issue."
+        },
+        "optional_param_11": {
+          "type": "string",
+          "description": "Extended configuration parameter #11 controlling retry policy for gh_create_issue."
+        },
+        "optional_param_12": {
+          "type": "string",
+          "description": "Extended configuration parameter #12 controlling retry policy for gh_create_issue."
+        },
+        "optional_param_13": {
+          "type": "string",
+          "description": "Extended configuration parameter #13 controlling retry policy for gh_create_issue."
+        },
+        "optional_param_14": {
+          "type": "string",
+          "description": "Extended configuration parameter #14 controlling retry policy for gh_create_issue."
+        },
+        "optional_param_15": {
+          "type": "string",
+          "description": "Extended configuration parameter #15 controlling retry policy for gh_create_issue."
+        },
+        "optional_param_16": {
+          "type": "string",
+          "description": "Extended configuration parameter #16 controlling retry policy for gh_create_issue."
+        },
+        "optional_param_17": {
+          "type": "string",
+          "description": "Extended configuration parameter #17 controlling retry policy for gh_create_issue."
+        },
+        "optional_param_18": {
+          "type": "string",
+          "description": "Extended configuration parameter #18 controlling retry policy for gh_create_issue."
+        },
+        "optional_param_19": {
+          "type": "string",
+          "description": "Extended configuration parameter #19 controlling retry policy for gh_create_issue."
+        }
+      },
+      "required": [
+        "query"
+      ]
+    }
+  },
+  {
+    "tool_name": "gh_list_pull_requests",
+    "server_name": "github_mcp",
+    "description": "Enterprise MCP tool gh_list_pull_requests on server github_mcp",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "query": {
+          "type": "string",
+          "description": "Primary execution query or filter expression"
+        },
+        "repo": {
+          "type": "string",
+          "description": "Target repository full name"
+        },
+        "command": {
+          "type": "string",
+          "description": "Shell command string to execute"
+        },
+        "optional_param_1": {
+          "type": "string",
+          "description": "Extended configuration parameter #1 controlling retry policy for gh_list_pull_requests."
+        },
+        "optional_param_2": {
+          "type": "string",
+          "description": "Extended configuration parameter #2 controlling retry policy for gh_list_pull_requests."
+        },
+        "optional_param_3": {
+          "type": "string",
+          "description": "Extended configuration parameter #3 controlling retry policy for gh_list_pull_requests."
+        },
+        "optional_param_4": {
+          "type": "string",
+          "description": "Extended configuration parameter #4 controlling retry policy for gh_list_pull_requests."
+        },
+        "optional_param_5": {
+          "type": "string",
+          "description": "Extended configuration parameter #5 controlling retry policy for gh_list_pull_requests."
+        },
+        "optional_param_6": {
+          "type": "string",
+          "description": "Extended configuration parameter #6 controlling retry policy for gh_list_pull_requests."
+        },
+        "optional_param_7": {
+          "type": "string",
+          "description": "Extended configuration parameter #7 controlling retry policy for gh_list_pull_requests."
+        },
+        "optional_param_8": {
+          "type": "string",
+          "description": "Extended configuration parameter #8 controlling retry policy for gh_list_pull_requests."
+        },
+        "optional_param_9": {
+          "type": "string",
+          "description": "Extended configuration parameter #9 controlling retry policy for gh_list_pull_requests."
+        },
+        "optional_param_10": {
+          "type": "string",
+          "description": "Extended configuration parameter #10 controlling retry policy for gh_list_pull_requests."
+        },
+        "optional_param_11": {
+          "type": "string",
+          "description": "Extended configuration parameter #11 controlling retry policy for gh_list_pull_requests."
+        },
+        "optional_param_12": {
+          "type": "string",
+          "description": "Extended configuration parameter #12 controlling retry policy for gh_list_pull_requests."
+        },
+        "optional_param_13": {
+          "type": "string",
+          "description": "Extended configuration parameter #13 controlling retry policy for gh_list_pull_requests."
+        },
+        "optional_param_14": {
+          "type": "string",
+          "description": "Extended configuration parameter #14 controlling retry policy for gh_list_pull_requests."
+        },
+        "optional_param_15": {
+          "type": "string",
+          "description": "Extended configuration parameter #15 controlling retry policy for gh_list_pull_requests."
+        },
+        "optional_param_16": {
+          "type": "string",
+          "description": "Extended configuration parameter #16 controlling retry policy for gh_list_pull_requests."
+        },
+        "optional_param_17": {
+          "type": "string",
+          "description": "Extended configuration parameter #17 controlling retry policy for gh_list_pull_requests."
+        },
+        "optional_param_18": {
+          "type": "string",
+          "description": "Extended configuration parameter #18 controlling retry policy for gh_list_pull_requests."
+        },
+        "optional_param_19": {
+          "type": "string",
+          "description": "Extended configuration parameter #19 controlling retry policy for gh_list_pull_requests."
+        }
+      },
+      "required": [
+        "query"
+      ]
+    }
+  },
+  {
+    "tool_name": "gh_get_commit_history",
+    "server_name": "github_mcp",
+    "description": "Enterprise MCP tool gh_get_commit_history on server github_mcp",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "query": {
+          "type": "string",
+          "description": "Primary execution query or filter expression"
+        },
+        "repo": {
+          "type": "string",
+          "description": "Target repository full name"
+        },
+        "command": {
+          "type": "string",
+          "description": "Shell command string to execute"
+        },
+        "optional_param_1": {
+          "type": "string",
+          "description": "Extended configuration parameter #1 controlling retry policy for gh_get_commit_history."
+        },
+        "optional_param_2": {
+          "type": "string",
+          "description": "Extended configuration parameter #2 controlling retry policy for gh_get_commit_history."
+        },
+        "optional_param_3": {
+          "type": "string",
+          "description": "Extended configuration parameter #3 controlling retry policy for gh_get_commit_history."
+        },
+        "optional_param_4": {
+          "type": "string",
+          "description": "Extended configuration parameter #4 controlling retry policy for gh_get_commit_history."
+        },
+        "optional_param_5": {
+          "type": "string",
+          "description": "Extended configuration parameter #5 controlling retry policy for gh_get_commit_history."
+        },
+        "optional_param_6": {
+          "type": "string",
+          "description": "Extended configuration parameter #6 controlling retry policy for gh_get_commit_history."
+        },
+        "optional_param_7": {
+          "type": "string",
+          "description": "Extended configuration parameter #7 controlling retry policy for gh_get_commit_history."
+        },
+        "optional_param_8": {
+          "type": "string",
+          "description": "Extended configuration parameter #8 controlling retry policy for gh_get_commit_history."
+        },
+        "optional_param_9": {
+          "type": "string",
+          "description": "Extended configuration parameter #9 controlling retry policy for gh_get_commit_history."
+        },
+        "optional_param_10": {
+          "type": "string",
+          "description": "Extended configuration parameter #10 controlling retry policy for gh_get_commit_history."
+        },
+        "optional_param_11": {
+          "type": "string",
+          "description": "Extended configuration parameter #11 controlling retry policy for gh_get_commit_history."
+        },
+        "optional_param_12": {
+          "type": "string",
+          "description": "Extended configuration parameter #12 controlling retry policy for gh_get_commit_history."
+        },
+        "optional_param_13": {
+          "type": "string",
+          "description": "Extended configuration parameter #13 controlling retry policy for gh_get_commit_history."
+        },
+        "optional_param_14": {
+          "type": "string",
+          "description": "Extended configuration parameter #14 controlling retry policy for gh_get_commit_history."
+        },
+        "optional_param_15": {
+          "type": "string",
+          "description": "Extended configuration parameter #15 controlling retry policy for gh_get_commit_history."
+        },
+        "optional_param_16": {
+          "type": "string",
+          "description": "Extended configuration parameter #16 controlling retry policy for gh_get_commit_history."
+        },
+        "optional_param_17": {
+          "type": "string",
+          "description": "Extended configuration parameter #17 controlling retry policy for gh_get_commit_history."
+        },
+        "optional_param_18": {
+          "type": "string",
+          "description": "Extended configuration parameter #18 controlling retry policy for gh_get_commit_history."
+        },
+        "optional_param_19": {
+          "type": "string",
+          "description": "Extended configuration parameter #19 controlling retry policy for gh_get_commit_history."
+        }
+      },
+      "required": [
+        "query"
+      ]
+    }
+  },
+  {
+    "tool_name": "gh_list_workflow_runs",
+    "server_name": "github_mcp",
+    "description": "Enterprise MCP tool gh_list_workflow_runs on server github_mcp",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "query": {
+          "type": "string",
+          "description": "Primary execution query or filter expression"
+        },
+        "repo": {
+          "type": "string",
+          "description": "Target repository full name"
+        },
+        "command": {
+          "type": "string",
+          "description": "Shell command string to execute"
+        },
+        "optional_param_1": {
+          "type": "string",
+          "description": "Extended configuration parameter #1 controlling retry policy for gh_list_workflow_runs."
+        },
+        "optional_param_2": {
+          "type": "string",
+          "description": "Extended configuration parameter #2 controlling retry policy for gh_list_workflow_runs."
+        },
+        "optional_param_3": {
+          "type": "string",
+          "description": "Extended configuration parameter #3 controlling retry policy for gh_list_workflow_runs."
+        },
+        "optional_param_4": {
+          "type": "string",
+          "description": "Extended configuration parameter #4 controlling retry policy for gh_list_workflow_runs."
+        },
+        "optional_param_5": {
+          "type": "string",
+          "description": "Extended configuration parameter #5 controlling retry policy for gh_list_workflow_runs."
+        },
+        "optional_param_6": {
+          "type": "string",
+          "description": "Extended configuration parameter #6 controlling retry policy for gh_list_workflow_runs."
+        },
+        "optional_param_7": {
+          "type": "string",
+          "description": "Extended configuration parameter #7 controlling retry policy for gh_list_workflow_runs."
+        },
+        "optional_param_8": {
+          "type": "string",
+          "description": "Extended configuration parameter #8 controlling retry policy for gh_list_workflow_runs."
+        },
+        "optional_param_9": {
+          "type": "string",
+          "description": "Extended configuration parameter #9 controlling retry policy for gh_list_workflow_runs."
+        },
+        "optional_param_10": {
+          "type": "string",
+          "description": "Extended configuration parameter #10 controlling retry policy for gh_list_workflow_runs."
+        },
+        "optional_param_11": {
+          "type": "string",
+          "description": "Extended configuration parameter #11 controlling retry policy for gh_list_workflow_runs."
+        },
+        "optional_param_12": {
+          "type": "string",
+          "description": "Extended configuration parameter #12 controlling retry policy for gh_list_workflow_runs."
+        },
+        "optional_param_13": {
+          "type": "string",
+          "description": "Extended configuration parameter #13 controlling retry policy for gh_list_workflow_runs."
+        },
+        "optional_param_14": {
+          "type": "string",
+          "description": "Extended configuration parameter #14 controlling retry policy for gh_list_workflow_runs."
+        },
+        "optional_param_15": {
+          "type": "string",
+          "description": "Extended configuration parameter #15 controlling retry policy for gh_list_workflow_runs."
+        },
+        "optional_param_16": {
+          "type": "string",
+          "description": "Extended configuration parameter #16 controlling retry policy for gh_list_workflow_runs."
+        },
+        "optional_param_17": {
+          "type": "string",
+          "description": "Extended configuration parameter #17 controlling retry policy for gh_list_workflow_runs."
+        },
+        "optional_param_18": {
+          "type": "string",
+          "description": "Extended configuration parameter #18 controlling retry policy for gh_list_workflow_runs."
+        },
+        "optional_param_19": {
+          "type": "string",
+          "description": "Extended configuration parameter #19 controlling retry policy for gh_list_workflow_runs."
+        }
+      },
+      "required": [
+        "query"
+      ]
+    }
+  },
+  {
+    "tool_name": "gh_merge_pr",
+    "server_name": "github_mcp",
+    "description": "Enterprise MCP tool gh_merge_pr on server github_mcp",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "query": {
+          "type": "string",
+          "description": "Primary execution query or filter expression"
+        },
+        "repo": {
+          "type": "string",
+          "description": "Target repository full name"
+        },
+        "command": {
+          "type": "string",
+          "description": "Shell command string to execute"
+        },
+        "optional_param_1": {
+          "type": "string",
+          "description": "Extended configuration parameter #1 controlling retry policy for gh_merge_pr."
+        },
+        "optional_param_2": {
+          "type": "string",
+          "description": "Extended configuration parameter #2 controlling retry policy for gh_merge_pr."
+        },
+        "optional_param_3": {
+          "type": "string",
+          "description": "Extended configuration parameter #3 controlling retry policy for gh_merge_pr."
+        },
+        "optional_param_4": {
+          "type": "string",
+          "description": "Extended configuration parameter #4 controlling retry policy for gh_merge_pr."
+        },
+        "optional_param_5": {
+          "type": "string",
+          "description": "Extended configuration parameter #5 controlling retry policy for gh_merge_pr."
+        },
+        "optional_param_6": {
+          "type": "string",
+          "description": "Extended configuration parameter #6 controlling retry policy for gh_merge_pr."
+        },
+        "optional_param_7": {
+          "type": "string",
+          "description": "Extended configuration parameter #7 controlling retry policy for gh_merge_pr."
+        },
+        "optional_param_8": {
+          "type": "string",
+          "description": "Extended configuration parameter #8 controlling retry policy for gh_merge_pr."
+        },
+        "optional_param_9": {
+          "type": "string",
+          "description": "Extended configuration parameter #9 controlling retry policy for gh_merge_pr."
+        },
+        "optional_param_10": {
+          "type": "string",
+          "description": "Extended configuration parameter #10 controlling retry policy for gh_merge_pr."
+        },
+        "optional_param_11": {
+          "type": "string",
+          "description": "Extended configuration parameter #11 controlling retry policy for gh_merge_pr."
+        },
+        "optional_param_12": {
+          "type": "string",
+          "description": "Extended configuration parameter #12 controlling retry policy for gh_merge_pr."
+        },
+        "optional_param_13": {
+          "type": "string",
+          "description": "Extended configuration parameter #13 controlling retry policy for gh_merge_pr."
+        },
+        "optional_param_14": {
+          "type": "string",
+          "description": "Extended configuration parameter #14 controlling retry policy for gh_merge_pr."
+        },
+        "optional_param_15": {
+          "type": "string",
+          "description": "Extended configuration parameter #15 controlling retry policy for gh_merge_pr."
+        },
+        "optional_param_16": {
+          "type": "string",
+          "description": "Extended configuration parameter #16 controlling retry policy for gh_merge_pr."
+        },
+        "optional_param_17": {
+          "type": "string",
+          "description": "Extended configuration parameter #17 controlling retry policy for gh_merge_pr."
+        },
+        "optional_param_18": {
+          "type": "string",
+          "description": "Extended configuration parameter #18 controlling retry policy for gh_merge_pr."
+        },
+        "optional_param_19": {
+          "type": "string",
+          "description": "Extended configuration parameter #19 controlling retry policy for gh_merge_pr."
+        }
+      },
+      "required": [
+        "query"
+      ]
+    }
+  },
+  {
+    "tool_name": "gh_create_branch",
+    "server_name": "github_mcp",
+    "description": "Enterprise MCP tool gh_create_branch on server github_mcp",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "query": {
+          "type": "string",
+          "description": "Primary execution query or filter expression"
+        },
+        "repo": {
+          "type": "string",
+          "description": "Target repository full name"
+        },
+        "command": {
+          "type": "string",
+          "description": "Shell command string to execute"
+        },
+        "optional_param_1": {
+          "type": "string",
+          "description": "Extended configuration parameter #1 controlling retry policy for gh_create_branch."
+        },
+        "optional_param_2": {
+          "type": "string",
+          "description": "Extended configuration parameter #2 controlling retry policy for gh_create_branch."
+        },
+        "optional_param_3": {
+          "type": "string",
+          "description": "Extended configuration parameter #3 controlling retry policy for gh_create_branch."
+        },
+        "optional_param_4": {
+          "type": "string",
+          "description": "Extended configuration parameter #4 controlling retry policy for gh_create_branch."
+        },
+        "optional_param_5": {
+          "type": "string",
+          "description": "Extended configuration parameter #5 controlling retry policy for gh_create_branch."
+        },
+        "optional_param_6": {
+          "type": "string",
+          "description": "Extended configuration parameter #6 controlling retry policy for gh_create_branch."
+        },
+        "optional_param_7": {
+          "type": "string",
+          "description": "Extended configuration parameter #7 controlling retry policy for gh_create_branch."
+        },
+        "optional_param_8": {
+          "type": "string",
+          "description": "Extended configuration parameter #8 controlling retry policy for gh_create_branch."
+        },
+        "optional_param_9": {
+          "type": "string",
+          "description": "Extended configuration parameter #9 controlling retry policy for gh_create_branch."
+        },
+        "optional_param_10": {
+          "type": "string",
+          "description": "Extended configuration parameter #10 controlling retry policy for gh_create_branch."
+        },
+        "optional_param_11": {
+          "type": "string",
+          "description": "Extended configuration parameter #11 controlling retry policy for gh_create_branch."
+        },
+        "optional_param_12": {
+          "type": "string",
+          "description": "Extended configuration parameter #12 controlling retry policy for gh_create_branch."
+        },
+        "optional_param_13": {
+          "type": "string",
+          "description": "Extended configuration parameter #13 controlling retry policy for gh_create_branch."
+        },
+        "optional_param_14": {
+          "type": "string",
+          "description": "Extended configuration parameter #14 controlling retry policy for gh_create_branch."
+        },
+        "optional_param_15": {
+          "type": "string",
+          "description": "Extended configuration parameter #15 controlling retry policy for gh_create_branch."
+        },
+        "optional_param_16": {
+          "type": "string",
+          "description": "Extended configuration parameter #16 controlling retry policy for gh_create_branch."
+        },
+        "optional_param_17": {
+          "type": "string",
+          "description": "Extended configuration parameter #17 controlling retry policy for gh_create_branch."
+        },
+        "optional_param_18": {
+          "type": "string",
+          "description": "Extended configuration parameter #18 controlling retry policy for gh_create_branch."
+        },
+        "optional_param_19": {
+          "type": "string",
+          "description": "Extended configuration parameter #19 controlling retry policy for gh_create_branch."
+        }
+      },
+      "required": [
+        "query"
+      ]
+    }
+  },
+  {
+    "tool_name": "gh_get_file_contents",
+    "server_name": "github_mcp",
+    "description": "Enterprise MCP tool gh_get_file_contents on server github_mcp",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "query": {
+          "type": "string",
+          "description": "Primary execution query or filter expression"
+        },
+        "repo": {
+          "type": "string",
+          "description": "Target repository full name"
+        },
+        "command": {
+          "type": "string",
+          "description": "Shell command string to execute"
+        },
+        "optional_param_1": {
+          "type": "string",
+          "description": "Extended configuration parameter #1 controlling retry policy for gh_get_file_contents."
+        },
+        "optional_param_2": {
+          "type": "string",
+          "description": "Extended configuration parameter #2 controlling retry policy for gh_get_file_contents."
+        },
+        "optional_param_3": {
+          "type": "string",
+          "description": "Extended configuration parameter #3 controlling retry policy for gh_get_file_contents."
+        },
+        "optional_param_4": {
+          "type": "string",
+          "description": "Extended configuration parameter #4 controlling retry policy for gh_get_file_contents."
+        },
+        "optional_param_5": {
+          "type": "string",
+          "description": "Extended configuration parameter #5 controlling retry policy for gh_get_file_contents."
+        },
+        "optional_param_6": {
+          "type": "string",
+          "description": "Extended configuration parameter #6 controlling retry policy for gh_get_file_contents."
+        },
+        "optional_param_7": {
+          "type": "string",
+          "description": "Extended configuration parameter #7 controlling retry policy for gh_get_file_contents."
+        },
+        "optional_param_8": {
+          "type": "string",
+          "description": "Extended configuration parameter #8 controlling retry policy for gh_get_file_contents."
+        },
+        "optional_param_9": {
+          "type": "string",
+          "description": "Extended configuration parameter #9 controlling retry policy for gh_get_file_contents."
+        },
+        "optional_param_10": {
+          "type": "string",
+          "description": "Extended configuration parameter #10 controlling retry policy for gh_get_file_contents."
+        },
+        "optional_param_11": {
+          "type": "string",
+          "description": "Extended configuration parameter #11 controlling retry policy for gh_get_file_contents."
+        },
+        "optional_param_12": {
+          "type": "string",
+          "description": "Extended configuration parameter #12 controlling retry policy for gh_get_file_contents."
+        },
+        "optional_param_13": {
+          "type": "string",
+          "description": "Extended configuration parameter #13 controlling retry policy for gh_get_file_contents."
+        },
+        "optional_param_14": {
+          "type": "string",
+          "description": "Extended configuration parameter #14 controlling retry policy for gh_get_file_contents."
+        },
+        "optional_param_15": {
+          "type": "string",
+          "description": "Extended configuration parameter #15 controlling retry policy for gh_get_file_contents."
+        },
+        "optional_param_16": {
+          "type": "string",
+          "description": "Extended configuration parameter #16 controlling retry policy for gh_get_file_contents."
+        },
+        "optional_param_17": {
+          "type": "string",
+          "description": "Extended configuration parameter #17 controlling retry policy for gh_get_file_contents."
+        },
+        "optional_param_18": {
+          "type": "string",
+          "description": "Extended configuration parameter #18 controlling retry policy for gh_get_file_contents."
+        },
+        "optional_param_19": {
+          "type": "string",
+          "description": "Extended configuration parameter #19 controlling retry policy for gh_get_file_contents."
+        }
+      },
+      "required": [
+        "query"
+      ]
+    }
+  },
+  {
+    "tool_name": "gh_list_releases",
+    "server_name": "github_mcp",
+    "description": "Enterprise MCP tool gh_list_releases on server github_mcp",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "query": {
+          "type": "string",
+          "description": "Primary execution query or filter expression"
+        },
+        "repo": {
+          "type": "string",
+          "description": "Target repository full name"
+        },
+        "command": {
+          "type": "string",
+          "description": "Shell command string to execute"
+        },
+        "optional_param_1": {
+          "type": "string",
+          "description": "Extended configuration parameter #1 controlling retry policy for gh_list_releases."
+        },
+        "optional_param_2": {
+          "type": "string",
+          "description": "Extended configuration parameter #2 controlling retry policy for gh_list_releases."
+        },
+        "optional_param_3": {
+          "type": "string",
+          "description": "Extended configuration parameter #3 controlling retry policy for gh_list_releases."
+        },
+        "optional_param_4": {
+          "type": "string",
+          "description": "Extended configuration parameter #4 controlling retry policy for gh_list_releases."
+        },
+        "optional_param_5": {
+          "type": "string",
+          "description": "Extended configuration parameter #5 controlling retry policy for gh_list_releases."
+        },
+        "optional_param_6": {
+          "type": "string",
+          "description": "Extended configuration parameter #6 controlling retry policy for gh_list_releases."
+        },
+        "optional_param_7": {
+          "type": "string",
+          "description": "Extended configuration parameter #7 controlling retry policy for gh_list_releases."
+        },
+        "optional_param_8": {
+          "type": "string",
+          "description": "Extended configuration parameter #8 controlling retry policy for gh_list_releases."
+        },
+        "optional_param_9": {
+          "type": "string",
+          "description": "Extended configuration parameter #9 controlling retry policy for gh_list_releases."
+        },
+        "optional_param_10": {
+          "type": "string",
+          "description": "Extended configuration parameter #10 controlling retry policy for gh_list_releases."
+        },
+        "optional_param_11": {
+          "type": "string",
+          "description": "Extended configuration parameter #11 controlling retry policy for gh_list_releases."
+        },
+        "optional_param_12": {
+          "type": "string",
+          "description": "Extended configuration parameter #12 controlling retry policy for gh_list_releases."
+        },
+        "optional_param_13": {
+          "type": "string",
+          "description": "Extended configuration parameter #13 controlling retry policy for gh_list_releases."
+        },
+        "optional_param_14": {
+          "type": "string",
+          "description": "Extended configuration parameter #14 controlling retry policy for gh_list_releases."
+        },
+        "optional_param_15": {
+          "type": "string",
+          "description": "Extended configuration parameter #15 controlling retry policy for gh_list_releases."
+        },
+        "optional_param_16": {
+          "type": "string",
+          "description": "Extended configuration parameter #16 controlling retry policy for gh_list_releases."
+        },
+        "optional_param_17": {
+          "type": "string",
+          "description": "Extended configuration parameter #17 controlling retry policy for gh_list_releases."
+        },
+        "optional_param_18": {
+          "type": "string",
+          "description": "Extended configuration parameter #18 controlling retry policy for gh_list_releases."
+        },
+        "optional_param_19": {
+          "type": "string",
+          "description": "Extended configuration parameter #19 controlling retry policy for gh_list_releases."
+        }
+      },
+      "required": [
+        "query"
+      ]
+    }
+  },
+  {
+    "tool_name": "gh_add_comment",
+    "server_name": "github_mcp",
+    "description": "Enterprise MCP tool gh_add_comment on server github_mcp",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "query": {
+          "type": "string",
+          "description": "Primary execution query or filter expression"
+        },
+        "repo": {
+          "type": "string",
+          "description": "Target repository full name"
+        },
+        "command": {
+          "type": "string",
+          "description": "Shell command string to execute"
+        },
+        "optional_param_1": {
+          "type": "string",
+          "description": "Extended configuration parameter #1 controlling retry policy for gh_add_comment."
+        },
+        "optional_param_2": {
+          "type": "string",
+          "description": "Extended configuration parameter #2 controlling retry policy for gh_add_comment."
+        },
+        "optional_param_3": {
+          "type": "string",
+          "description": "Extended configuration parameter #3 controlling retry policy for gh_add_comment."
+        },
+        "optional_param_4": {
+          "type": "string",
+          "description": "Extended configuration parameter #4 controlling retry policy for gh_add_comment."
+        },
+        "optional_param_5": {
+          "type": "string",
+          "description": "Extended configuration parameter #5 controlling retry policy for gh_add_comment."
+        },
+        "optional_param_6": {
+          "type": "string",
+          "description": "Extended configuration parameter #6 controlling retry policy for gh_add_comment."
+        },
+        "optional_param_7": {
+          "type": "string",
+          "description": "Extended configuration parameter #7 controlling retry policy for gh_add_comment."
+        },
+        "optional_param_8": {
+          "type": "string",
+          "description": "Extended configuration parameter #8 controlling retry policy for gh_add_comment."
+        },
+        "optional_param_9": {
+          "type": "string",
+          "description": "Extended configuration parameter #9 controlling retry policy for gh_add_comment."
+        },
+        "optional_param_10": {
+          "type": "string",
+          "description": "Extended configuration parameter #10 controlling retry policy for gh_add_comment."
+        },
+        "optional_param_11": {
+          "type": "string",
+          "description": "Extended configuration parameter #11 controlling retry policy for gh_add_comment."
+        },
+        "optional_param_12": {
+          "type": "string",
+          "description": "Extended configuration parameter #12 controlling retry policy for gh_add_comment."
+        },
+        "optional_param_13": {
+          "type": "string",
+          "description": "Extended configuration parameter #13 controlling retry policy for gh_add_comment."
+        },
+        "optional_param_14": {
+          "type": "string",
+          "description": "Extended configuration parameter #14 controlling retry policy for gh_add_comment."
+        },
+        "optional_param_15": {
+          "type": "string",
+          "description": "Extended configuration parameter #15 controlling retry policy for gh_add_comment."
+        },
+        "optional_param_16": {
+          "type": "string",
+          "description": "Extended configuration parameter #16 controlling retry policy for gh_add_comment."
+        },
+        "optional_param_17": {
+          "type": "string",
+          "description": "Extended configuration parameter #17 controlling retry policy for gh_add_comment."
+        },
+        "optional_param_18": {
+          "type": "string",
+          "description": "Extended configuration parameter #18 controlling retry policy for gh_add_comment."
+        },
+        "optional_param_19": {
+          "type": "string",
+          "description": "Extended configuration parameter #19 controlling retry policy for gh_add_comment."
+        }
+      },
+      "required": [
+        "query"
+      ]
+    }
+  },
+  {
+    "tool_name": "gh_compare_commits",
+    "server_name": "github_mcp",
+    "description": "Enterprise MCP tool gh_compare_commits on server github_mcp",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "query": {
+          "type": "string",
+          "description": "Primary execution query or filter expression"
+        },
+        "repo": {
+          "type": "string",
+          "description": "Target repository full name"
+        },
+        "command": {
+          "type": "string",
+          "description": "Shell command string to execute"
+        },
+        "optional_param_1": {
+          "type": "string",
+          "description": "Extended configuration parameter #1 controlling retry policy for gh_compare_commits."
+        },
+        "optional_param_2": {
+          "type": "string",
+          "description": "Extended configuration parameter #2 controlling retry policy for gh_compare_commits."
+        },
+        "optional_param_3": {
+          "type": "string",
+          "description": "Extended configuration parameter #3 controlling retry policy for gh_compare_commits."
+        },
+        "optional_param_4": {
+          "type": "string",
+          "description": "Extended configuration parameter #4 controlling retry policy for gh_compare_commits."
+        },
+        "optional_param_5": {
+          "type": "string",
+          "description": "Extended configuration parameter #5 controlling retry policy for gh_compare_commits."
+        },
+        "optional_param_6": {
+          "type": "string",
+          "description": "Extended configuration parameter #6 controlling retry policy for gh_compare_commits."
+        },
+        "optional_param_7": {
+          "type": "string",
+          "description": "Extended configuration parameter #7 controlling retry policy for gh_compare_commits."
+        },
+        "optional_param_8": {
+          "type": "string",
+          "description": "Extended configuration parameter #8 controlling retry policy for gh_compare_commits."
+        },
+        "optional_param_9": {
+          "type": "string",
+          "description": "Extended configuration parameter #9 controlling retry policy for gh_compare_commits."
+        },
+        "optional_param_10": {
+          "type": "string",
+          "description": "Extended configuration parameter #10 controlling retry policy for gh_compare_commits."
+        },
+        "optional_param_11": {
+          "type": "string",
+          "description": "Extended configuration parameter #11 controlling retry policy for gh_compare_commits."
+        },
+        "optional_param_12": {
+          "type": "string",
+          "description": "Extended configuration parameter #12 controlling retry policy for gh_compare_commits."
+        },
+        "optional_param_13": {
+          "type": "string",
+          "description": "Extended configuration parameter #13 controlling retry policy for gh_compare_commits."
+        },
+        "optional_param_14": {
+          "type": "string",
+          "description": "Extended configuration parameter #14 controlling retry policy for gh_compare_commits."
+        },
+        "optional_param_15": {
+          "type": "string",
+          "description": "Extended configuration parameter #15 controlling retry policy for gh_compare_commits."
+        },
+        "optional_param_16": {
+          "type": "string",
+          "description": "Extended configuration parameter #16 controlling retry policy for gh_compare_commits."
+        },
+        "optional_param_17": {
+          "type": "string",
+          "description": "Extended configuration parameter #17 controlling retry policy for gh_compare_commits."
+        },
+        "optional_param_18": {
+          "type": "string",
+          "description": "Extended configuration parameter #18 controlling retry policy for gh_compare_commits."
+        },
+        "optional_param_19": {
+          "type": "string",
+          "description": "Extended configuration parameter #19 controlling retry policy for gh_compare_commits."
+        }
+      },
+      "required": [
+        "query"
+      ]
+    }
+  },
+  {
+    "tool_name": "shell_exec_command",
+    "server_name": "shell_mcp",
+    "description": "Enterprise MCP tool shell_exec_command on server shell_mcp",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "query": {
+          "type": "string",
+          "description": "Primary execution query or filter expression"
+        },
+        "repo": {
+          "type": "string",
+          "description": "Target repository full name"
+        },
+        "command": {
+          "type": "string",
+          "description": "Shell command string to execute"
+        },
+        "optional_param_1": {
+          "type": "string",
+          "description": "Extended configuration parameter #1 controlling retry policy for shell_exec_command."
+        },
+        "optional_param_2": {
+          "type": "string",
+          "description": "Extended configuration parameter #2 controlling retry policy for shell_exec_command."
+        },
+        "optional_param_3": {
+          "type": "string",
+          "description": "Extended configuration parameter #3 controlling retry policy for shell_exec_command."
+        },
+        "optional_param_4": {
+          "type": "string",
+          "description": "Extended configuration parameter #4 controlling retry policy for shell_exec_command."
+        },
+        "optional_param_5": {
+          "type": "string",
+          "description": "Extended configuration parameter #5 controlling retry policy for shell_exec_command."
+        },
+        "optional_param_6": {
+          "type": "string",
+          "description": "Extended configuration parameter #6 controlling retry policy for shell_exec_command."
+        },
+        "optional_param_7": {
+          "type": "string",
+          "description": "Extended configuration parameter #7 controlling retry policy for shell_exec_command."
+        },
+        "optional_param_8": {
+          "type": "string",
+          "description": "Extended configuration parameter #8 controlling retry policy for shell_exec_command."
+        },
+        "optional_param_9": {
+          "type": "string",
+          "description": "Extended configuration parameter #9 controlling retry policy for shell_exec_command."
+        },
+        "optional_param_10": {
+          "type": "string",
+          "description": "Extended configuration parameter #10 controlling retry policy for shell_exec_command."
+        },
+        "optional_param_11": {
+          "type": "string",
+          "description": "Extended configuration parameter #11 controlling retry policy for shell_exec_command."
+        },
+        "optional_param_12": {
+          "type": "string",
+          "description": "Extended configuration parameter #12 controlling retry policy for shell_exec_command."
+        },
+        "optional_param_13": {
+          "type": "string",
+          "description": "Extended configuration parameter #13 controlling retry policy for shell_exec_command."
+        },
+        "optional_param_14": {
+          "type": "string",
+          "description": "Extended configuration parameter #14 controlling retry policy for shell_exec_command."
+        },
+        "optional_param_15": {
+          "type": "string",
+          "description": "Extended configuration parameter #15 controlling retry policy for shell_exec_command."
+        },
+        "optional_param_16": {
+          "type": "string",
+          "description": "Extended configuration parameter #16 controlling retry policy for shell_exec_command."
+        },
+        "optional_param_17": {
+          "type": "string",
+          "description": "Extended configuration parameter #17 controlling retry policy for shell_exec_command."
+        },
+        "optional_param_18": {
+          "type": "string",
+          "description": "Extended configuration parameter #18 controlling retry policy for shell_exec_command."
+        },
+        "optional_param_19": {
+          "type": "string",
+          "description": "Extended configuration parameter #19 controlling retry policy for shell_exec_command."
+        }
+      },
+      "required": [
+        "query"
+      ]
+    }
+  },
+  {
+    "tool_name": "shell_check_process",
+    "server_name": "shell_mcp",
+    "description": "Enterprise MCP tool shell_check_process on server shell_mcp",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "query": {
+          "type": "string",
+          "description": "Primary execution query or filter expression"
+        },
+        "repo": {
+          "type": "string",
+          "description": "Target repository full name"
+        },
+        "command": {
+          "type": "string",
+          "description": "Shell command string to execute"
+        },
+        "optional_param_1": {
+          "type": "string",
+          "description": "Extended configuration parameter #1 controlling retry policy for shell_check_process."
+        },
+        "optional_param_2": {
+          "type": "string",
+          "description": "Extended configuration parameter #2 controlling retry policy for shell_check_process."
+        },
+        "optional_param_3": {
+          "type": "string",
+          "description": "Extended configuration parameter #3 controlling retry policy for shell_check_process."
+        },
+        "optional_param_4": {
+          "type": "string",
+          "description": "Extended configuration parameter #4 controlling retry policy for shell_check_process."
+        },
+        "optional_param_5": {
+          "type": "string",
+          "description": "Extended configuration parameter #5 controlling retry policy for shell_check_process."
+        },
+        "optional_param_6": {
+          "type": "string",
+          "description": "Extended configuration parameter #6 controlling retry policy for shell_check_process."
+        },
+        "optional_param_7": {
+          "type": "string",
+          "description": "Extended configuration parameter #7 controlling retry policy for shell_check_process."
+        },
+        "optional_param_8": {
+          "type": "string",
+          "description": "Extended configuration parameter #8 controlling retry policy for shell_check_process."
+        },
+        "optional_param_9": {
+          "type": "string",
+          "description": "Extended configuration parameter #9 controlling retry policy for shell_check_process."
+        },
+        "optional_param_10": {
+          "type": "string",
+          "description": "Extended configuration parameter #10 controlling retry policy for shell_check_process."
+        },
+        "optional_param_11": {
+          "type": "string",
+          "description": "Extended configuration parameter #11 controlling retry policy for shell_check_process."
+        },
+        "optional_param_12": {
+          "type": "string",
+          "description": "Extended configuration parameter #12 controlling retry policy for shell_check_process."
+        },
+        "optional_param_13": {
+          "type": "string",
+          "description": "Extended configuration parameter #13 controlling retry policy for shell_check_process."
+        },
+        "optional_param_14": {
+          "type": "string",
+          "description": "Extended configuration parameter #14 controlling retry policy for shell_check_process."
+        },
+        "optional_param_15": {
+          "type": "string",
+          "description": "Extended configuration parameter #15 controlling retry policy for shell_check_process."
+        },
+        "optional_param_16": {
+          "type": "string",
+          "description": "Extended configuration parameter #16 controlling retry policy for shell_check_process."
+        },
+        "optional_param_17": {
+          "type": "string",
+          "description": "Extended configuration parameter #17 controlling retry policy for shell_check_process."
+        },
+        "optional_param_18": {
+          "type": "string",
+          "description": "Extended configuration parameter #18 controlling retry policy for shell_check_process."
+        },
+        "optional_param_19": {
+          "type": "string",
+          "description": "Extended configuration parameter #19 controlling retry policy for shell_check_process."
+        }
+      },
+      "required": [
+        "query"
+      ]
+    }
+  },
+  {
+    "tool_name": "shell_tail_log",
+    "server_name": "shell_mcp",
+    "description": "Enterprise MCP tool shell_tail_log on server shell_mcp",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "query": {
+          "type": "string",
+          "description": "Primary execution query or filter expression"
+        },
+        "repo": {
+          "type": "string",
+          "description": "Target repository full name"
+        },
+        "command": {
+          "type": "string",
+          "description": "Shell command string to execute"
+        },
+        "optional_param_1": {
+          "type": "string",
+          "description": "Extended configuration parameter #1 controlling retry policy for shell_tail_log."
+        },
+        "optional_param_2": {
+          "type": "string",
+          "description": "Extended configuration parameter #2 controlling retry policy for shell_tail_log."
+        },
+        "optional_param_3": {
+          "type": "string",
+          "description": "Extended configuration parameter #3 controlling retry policy for shell_tail_log."
+        },
+        "optional_param_4": {
+          "type": "string",
+          "description": "Extended configuration parameter #4 controlling retry policy for shell_tail_log."
+        },
+        "optional_param_5": {
+          "type": "string",
+          "description": "Extended configuration parameter #5 controlling retry policy for shell_tail_log."
+        },
+        "optional_param_6": {
+          "type": "string",
+          "description": "Extended configuration parameter #6 controlling retry policy for shell_tail_log."
+        },
+        "optional_param_7": {
+          "type": "string",
+          "description": "Extended configuration parameter #7 controlling retry policy for shell_tail_log."
+        },
+        "optional_param_8": {
+          "type": "string",
+          "description": "Extended configuration parameter #8 controlling retry policy for shell_tail_log."
+        },
+        "optional_param_9": {
+          "type": "string",
+          "description": "Extended configuration parameter #9 controlling retry policy for shell_tail_log."
+        },
+        "optional_param_10": {
+          "type": "string",
+          "description": "Extended configuration parameter #10 controlling retry policy for shell_tail_log."
+        },
+        "optional_param_11": {
+          "type": "string",
+          "description": "Extended configuration parameter #11 controlling retry policy for shell_tail_log."
+        },
+        "optional_param_12": {
+          "type": "string",
+          "description": "Extended configuration parameter #12 controlling retry policy for shell_tail_log."
+        },
+        "optional_param_13": {
+          "type": "string",
+          "description": "Extended configuration parameter #13 controlling retry policy for shell_tail_log."
+        },
+        "optional_param_14": {
+          "type": "string",
+          "description": "Extended configuration parameter #14 controlling retry policy for shell_tail_log."
+        },
+        "optional_param_15": {
+          "type": "string",
+          "description": "Extended configuration parameter #15 controlling retry policy for shell_tail_log."
+        },
+        "optional_param_16": {
+          "type": "string",
+          "description": "Extended configuration parameter #16 controlling retry policy for shell_tail_log."
+        },
+        "optional_param_17": {
+          "type": "string",
+          "description": "Extended configuration parameter #17 controlling retry policy for shell_tail_log."
+        },
+        "optional_param_18": {
+          "type": "string",
+          "description": "Extended configuration parameter #18 controlling retry policy for shell_tail_log."
+        },
+        "optional_param_19": {
+          "type": "string",
+          "description": "Extended configuration parameter #19 controlling retry policy for shell_tail_log."
+        }
+      },
+      "required": [
+        "query"
+      ]
+    }
+  },
+  {
+    "tool_name": "shell_grep_pattern",
+    "server_name": "shell_mcp",
+    "description": "Enterprise MCP tool shell_grep_pattern on server shell_mcp",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "query": {
+          "type": "string",
+          "description": "Primary execution query or filter expression"
+        },
+        "repo": {
+          "type": "string",
+          "description": "Target repository full name"
+        },
+        "command": {
+          "type": "string",
+          "description": "Shell command string to execute"
+        },
+        "optional_param_1": {
+          "type": "string",
+          "description": "Extended configuration parameter #1 controlling retry policy for shell_grep_pattern."
+        },
+        "optional_param_2": {
+          "type": "string",
+          "description": "Extended configuration parameter #2 controlling retry policy for shell_grep_pattern."
+        },
+        "optional_param_3": {
+          "type": "string",
+          "description": "Extended configuration parameter #3 controlling retry policy for shell_grep_pattern."
+        },
+        "optional_param_4": {
+          "type": "string",
+          "description": "Extended configuration parameter #4 controlling retry policy for shell_grep_pattern."
+        },
+        "optional_param_5": {
+          "type": "string",
+          "description": "Extended configuration parameter #5 controlling retry policy for shell_grep_pattern."
+        },
+        "optional_param_6": {
+          "type": "string",
+          "description": "Extended configuration parameter #6 controlling retry policy for shell_grep_pattern."
+        },
+        "optional_param_7": {
+          "type": "string",
+          "description": "Extended configuration parameter #7 controlling retry policy for shell_grep_pattern."
+        },
+        "optional_param_8": {
+          "type": "string",
+          "description": "Extended configuration parameter #8 controlling retry policy for shell_grep_pattern."
+        },
+        "optional_param_9": {
+          "type": "string",
+          "description": "Extended configuration parameter #9 controlling retry policy for shell_grep_pattern."
+        },
+        "optional_param_10": {
+          "type": "string",
+          "description": "Extended configuration parameter #10 controlling retry policy for shell_grep_pattern."
+        },
+        "optional_param_11": {
+          "type": "string",
+          "description": "Extended configuration parameter #11 controlling retry policy for shell_grep_pattern."
+        },
+        "optional_param_12": {
+          "type": "string",
+          "description": "Extended configuration parameter #12 controlling retry policy for shell_grep_pattern."
+        },
+        "optional_param_13": {
+          "type": "string",
+          "description": "Extended configuration parameter #13 controlling retry policy for shell_grep_pattern."
+        },
+        "optional_param_14": {
+          "type": "string",
+          "description": "Extended configuration parameter #14 controlling retry policy for shell_grep_pattern."
+        },
+        "optional_param_15": {
+          "type": "string",
+          "description": "Extended configuration parameter #15 controlling retry policy for shell_grep_pattern."
+        },
+        "optional_param_16": {
+          "type": "string",
+          "description": "Extended configuration parameter #16 controlling retry policy for shell_grep_pattern."
+        },
+        "optional_param_17": {
+          "type": "string",
+          "description": "Extended configuration parameter #17 controlling retry policy for shell_grep_pattern."
+        },
+        "optional_param_18": {
+          "type": "string",
+          "description": "Extended configuration parameter #18 controlling retry policy for shell_grep_pattern."
+        },
+        "optional_param_19": {
+          "type": "string",
+          "description": "Extended configuration parameter #19 controlling retry policy for shell_grep_pattern."
+        }
+      },
+      "required": [
+        "query"
+      ]
+    }
+  },
+  {
+    "tool_name": "shell_view_directory",
+    "server_name": "shell_mcp",
+    "description": "Enterprise MCP tool shell_view_directory on server shell_mcp",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "query": {
+          "type": "string",
+          "description": "Primary execution query or filter expression"
+        },
+        "repo": {
+          "type": "string",
+          "description": "Target repository full name"
+        },
+        "command": {
+          "type": "string",
+          "description": "Shell command string to execute"
+        },
+        "optional_param_1": {
+          "type": "string",
+          "description": "Extended configuration parameter #1 controlling retry policy for shell_view_directory."
+        },
+        "optional_param_2": {
+          "type": "string",
+          "description": "Extended configuration parameter #2 controlling retry policy for shell_view_directory."
+        },
+        "optional_param_3": {
+          "type": "string",
+          "description": "Extended configuration parameter #3 controlling retry policy for shell_view_directory."
+        },
+        "optional_param_4": {
+          "type": "string",
+          "description": "Extended configuration parameter #4 controlling retry policy for shell_view_directory."
+        },
+        "optional_param_5": {
+          "type": "string",
+          "description": "Extended configuration parameter #5 controlling retry policy for shell_view_directory."
+        },
+        "optional_param_6": {
+          "type": "string",
+          "description": "Extended configuration parameter #6 controlling retry policy for shell_view_directory."
+        },
+        "optional_param_7": {
+          "type": "string",
+          "description": "Extended configuration parameter #7 controlling retry policy for shell_view_directory."
+        },
+        "optional_param_8": {
+          "type": "string",
+          "description": "Extended configuration parameter #8 controlling retry policy for shell_view_directory."
+        },
+        "optional_param_9": {
+          "type": "string",
+          "description": "Extended configuration parameter #9 controlling retry policy for shell_view_directory."
+        },
+        "optional_param_10": {
+          "type": "string",
+          "description": "Extended configuration parameter #10 controlling retry policy for shell_view_directory."
+        },
+        "optional_param_11": {
+          "type": "string",
+          "description": "Extended configuration parameter #11 controlling retry policy for shell_view_directory."
+        },
+        "optional_param_12": {
+          "type": "string",
+          "description": "Extended configuration parameter #12 controlling retry policy for shell_view_directory."
+        },
+        "optional_param_13": {
+          "type": "string",
+          "description": "Extended configuration parameter #13 controlling retry policy for shell_view_directory."
+        },
+        "optional_param_14": {
+          "type": "string",
+          "description": "Extended configuration parameter #14 controlling retry policy for shell_view_directory."
+        },
+        "optional_param_15": {
+          "type": "string",
+          "description": "Extended configuration parameter #15 controlling retry policy for shell_view_directory."
+        },
+        "optional_param_16": {
+          "type": "string",
+          "description": "Extended configuration parameter #16 controlling retry policy for shell_view_directory."
+        },
+        "optional_param_17": {
+          "type": "string",
+          "description": "Extended configuration parameter #17 controlling retry policy for shell_view_directory."
+        },
+        "optional_param_18": {
+          "type": "string",
+          "description": "Extended configuration parameter #18 controlling retry policy for shell_view_directory."
+        },
+        "optional_param_19": {
+          "type": "string",
+          "description": "Extended configuration parameter #19 controlling retry policy for shell_view_directory."
+        }
+      },
+      "required": [
+        "query"
+      ]
+    }
+  },
+  {
+    "tool_name": "shell_docker_status",
+    "server_name": "shell_mcp",
+    "description": "Enterprise MCP tool shell_docker_status on server shell_mcp",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "query": {
+          "type": "string",
+          "description": "Primary execution query or filter expression"
+        },
+        "repo": {
+          "type": "string",
+          "description": "Target repository full name"
+        },
+        "command": {
+          "type": "string",
+          "description": "Shell command string to execute"
+        },
+        "optional_param_1": {
+          "type": "string",
+          "description": "Extended configuration parameter #1 controlling retry policy for shell_docker_status."
+        },
+        "optional_param_2": {
+          "type": "string",
+          "description": "Extended configuration parameter #2 controlling retry policy for shell_docker_status."
+        },
+        "optional_param_3": {
+          "type": "string",
+          "description": "Extended configuration parameter #3 controlling retry policy for shell_docker_status."
+        },
+        "optional_param_4": {
+          "type": "string",
+          "description": "Extended configuration parameter #4 controlling retry policy for shell_docker_status."
+        },
+        "optional_param_5": {
+          "type": "string",
+          "description": "Extended configuration parameter #5 controlling retry policy for shell_docker_status."
+        },
+        "optional_param_6": {
+          "type": "string",
+          "description": "Extended configuration parameter #6 controlling retry policy for shell_docker_status."
+        },
+        "optional_param_7": {
+          "type": "string",
+          "description": "Extended configuration parameter #7 controlling retry policy for shell_docker_status."
+        },
+        "optional_param_8": {
+          "type": "string",
+          "description": "Extended configuration parameter #8 controlling retry policy for shell_docker_status."
+        },
+        "optional_param_9": {
+          "type": "string",
+          "description": "Extended configuration parameter #9 controlling retry policy for shell_docker_status."
+        },
+        "optional_param_10": {
+          "type": "string",
+          "description": "Extended configuration parameter #10 controlling retry policy for shell_docker_status."
+        },
+        "optional_param_11": {
+          "type": "string",
+          "description": "Extended configuration parameter #11 controlling retry policy for shell_docker_status."
+        },
+        "optional_param_12": {
+          "type": "string",
+          "description": "Extended configuration parameter #12 controlling retry policy for shell_docker_status."
+        },
+        "optional_param_13": {
+          "type": "string",
+          "description": "Extended configuration parameter #13 controlling retry policy for shell_docker_status."
+        },
+        "optional_param_14": {
+          "type": "string",
+          "description": "Extended configuration parameter #14 controlling retry policy for shell_docker_status."
+        },
+        "optional_param_15": {
+          "type": "string",
+          "description": "Extended configuration parameter #15 controlling retry policy for shell_docker_status."
+        },
+        "optional_param_16": {
+          "type": "string",
+          "description": "Extended configuration parameter #16 controlling retry policy for shell_docker_status."
+        },
+        "optional_param_17": {
+          "type": "string",
+          "description": "Extended configuration parameter #17 controlling retry policy for shell_docker_status."
+        },
+        "optional_param_18": {
+          "type": "string",
+          "description": "Extended configuration parameter #18 controlling retry policy for shell_docker_status."
+        },
+        "optional_param_19": {
+          "type": "string",
+          "description": "Extended configuration parameter #19 controlling retry policy for shell_docker_status."
+        }
+      },
+      "required": [
+        "query"
+      ]
+    }
+  },
+  {
+    "tool_name": "shell_disk_usage",
+    "server_name": "shell_mcp",
+    "description": "Enterprise MCP tool shell_disk_usage on server shell_mcp",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "query": {
+          "type": "string",
+          "description": "Primary execution query or filter expression"
+        },
+        "repo": {
+          "type": "string",
+          "description": "Target repository full name"
+        },
+        "command": {
+          "type": "string",
+          "description": "Shell command string to execute"
+        },
+        "optional_param_1": {
+          "type": "string",
+          "description": "Extended configuration parameter #1 controlling retry policy for shell_disk_usage."
+        },
+        "optional_param_2": {
+          "type": "string",
+          "description": "Extended configuration parameter #2 controlling retry policy for shell_disk_usage."
+        },
+        "optional_param_3": {
+          "type": "string",
+          "description": "Extended configuration parameter #3 controlling retry policy for shell_disk_usage."
+        },
+        "optional_param_4": {
+          "type": "string",
+          "description": "Extended configuration parameter #4 controlling retry policy for shell_disk_usage."
+        },
+        "optional_param_5": {
+          "type": "string",
+          "description": "Extended configuration parameter #5 controlling retry policy for shell_disk_usage."
+        },
+        "optional_param_6": {
+          "type": "string",
+          "description": "Extended configuration parameter #6 controlling retry policy for shell_disk_usage."
+        },
+        "optional_param_7": {
+          "type": "string",
+          "description": "Extended configuration parameter #7 controlling retry policy for shell_disk_usage."
+        },
+        "optional_param_8": {
+          "type": "string",
+          "description": "Extended configuration parameter #8 controlling retry policy for shell_disk_usage."
+        },
+        "optional_param_9": {
+          "type": "string",
+          "description": "Extended configuration parameter #9 controlling retry policy for shell_disk_usage."
+        },
+        "optional_param_10": {
+          "type": "string",
+          "description": "Extended configuration parameter #10 controlling retry policy for shell_disk_usage."
+        },
+        "optional_param_11": {
+          "type": "string",
+          "description": "Extended configuration parameter #11 controlling retry policy for shell_disk_usage."
+        },
+        "optional_param_12": {
+          "type": "string",
+          "description": "Extended configuration parameter #12 controlling retry policy for shell_disk_usage."
+        },
+        "optional_param_13": {
+          "type": "string",
+          "description": "Extended configuration parameter #13 controlling retry policy for shell_disk_usage."
+        },
+        "optional_param_14": {
+          "type": "string",
+          "description": "Extended configuration parameter #14 controlling retry policy for shell_disk_usage."
+        },
+        "optional_param_15": {
+          "type": "string",
+          "description": "Extended configuration parameter #15 controlling retry policy for shell_disk_usage."
+        },
+        "optional_param_16": {
+          "type": "string",
+          "description": "Extended configuration parameter #16 controlling retry policy for shell_disk_usage."
+        },
+        "optional_param_17": {
+          "type": "string",
+          "description": "Extended configuration parameter #17 controlling retry policy for shell_disk_usage."
+        },
+        "optional_param_18": {
+          "type": "string",
+          "description": "Extended configuration parameter #18 controlling retry policy for shell_disk_usage."
+        },
+        "optional_param_19": {
+          "type": "string",
+          "description": "Extended configuration parameter #19 controlling retry policy for shell_disk_usage."
+        }
+      },
+      "required": [
+        "query"
+      ]
+    }
+  },
+  {
+    "tool_name": "shell_netstat_ports",
+    "server_name": "shell_mcp",
+    "description": "Enterprise MCP tool shell_netstat_ports on server shell_mcp",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "query": {
+          "type": "string",
+          "description": "Primary execution query or filter expression"
+        },
+        "repo": {
+          "type": "string",
+          "description": "Target repository full name"
+        },
+        "command": {
+          "type": "string",
+          "description": "Shell command string to execute"
+        },
+        "optional_param_1": {
+          "type": "string",
+          "description": "Extended configuration parameter #1 controlling retry policy for shell_netstat_ports."
+        },
+        "optional_param_2": {
+          "type": "string",
+          "description": "Extended configuration parameter #2 controlling retry policy for shell_netstat_ports."
+        },
+        "optional_param_3": {
+          "type": "string",
+          "description": "Extended configuration parameter #3 controlling retry policy for shell_netstat_ports."
+        },
+        "optional_param_4": {
+          "type": "string",
+          "description": "Extended configuration parameter #4 controlling retry policy for shell_netstat_ports."
+        },
+        "optional_param_5": {
+          "type": "string",
+          "description": "Extended configuration parameter #5 controlling retry policy for shell_netstat_ports."
+        },
+        "optional_param_6": {
+          "type": "string",
+          "description": "Extended configuration parameter #6 controlling retry policy for shell_netstat_ports."
+        },
+        "optional_param_7": {
+          "type": "string",
+          "description": "Extended configuration parameter #7 controlling retry policy for shell_netstat_ports."
+        },
+        "optional_param_8": {
+          "type": "string",
+          "description": "Extended configuration parameter #8 controlling retry policy for shell_netstat_ports."
+        },
+        "optional_param_9": {
+          "type": "string",
+          "description": "Extended configuration parameter #9 controlling retry policy for shell_netstat_ports."
+        },
+        "optional_param_10": {
+          "type": "string",
+          "description": "Extended configuration parameter #10 controlling retry policy for shell_netstat_ports."
+        },
+        "optional_param_11": {
+          "type": "string",
+          "description": "Extended configuration parameter #11 controlling retry policy for shell_netstat_ports."
+        },
+        "optional_param_12": {
+          "type": "string",
+          "description": "Extended configuration parameter #12 controlling retry policy for shell_netstat_ports."
+        },
+        "optional_param_13": {
+          "type": "string",
+          "description": "Extended configuration parameter #13 controlling retry policy for shell_netstat_ports."
+        },
+        "optional_param_14": {
+          "type": "string",
+          "description": "Extended configuration parameter #14 controlling retry policy for shell_netstat_ports."
+        },
+        "optional_param_15": {
+          "type": "string",
+          "description": "Extended configuration parameter #15 controlling retry policy for shell_netstat_ports."
+        },
+        "optional_param_16": {
+          "type": "string",
+          "description": "Extended configuration parameter #16 controlling retry policy for shell_netstat_ports."
+        },
+        "optional_param_17": {
+          "type": "string",
+          "description": "Extended configuration parameter #17 controlling retry policy for shell_netstat_ports."
+        },
+        "optional_param_18": {
+          "type": "string",
+          "description": "Extended configuration parameter #18 controlling retry policy for shell_netstat_ports."
+        },
+        "optional_param_19": {
+          "type": "string",
+          "description": "Extended configuration parameter #19 controlling retry policy for shell_netstat_ports."
+        }
+      },
+      "required": [
+        "query"
+      ]
+    }
+  },
+  {
+    "tool_name": "shell_systemctl_status",
+    "server_name": "shell_mcp",
+    "description": "Enterprise MCP tool shell_systemctl_status on server shell_mcp",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "query": {
+          "type": "string",
+          "description": "Primary execution query or filter expression"
+        },
+        "repo": {
+          "type": "string",
+          "description": "Target repository full name"
+        },
+        "command": {
+          "type": "string",
+          "description": "Shell command string to execute"
+        },
+        "optional_param_1": {
+          "type": "string",
+          "description": "Extended configuration parameter #1 controlling retry policy for shell_systemctl_status."
+        },
+        "optional_param_2": {
+          "type": "string",
+          "description": "Extended configuration parameter #2 controlling retry policy for shell_systemctl_status."
+        },
+        "optional_param_3": {
+          "type": "string",
+          "description": "Extended configuration parameter #3 controlling retry policy for shell_systemctl_status."
+        },
+        "optional_param_4": {
+          "type": "string",
+          "description": "Extended configuration parameter #4 controlling retry policy for shell_systemctl_status."
+        },
+        "optional_param_5": {
+          "type": "string",
+          "description": "Extended configuration parameter #5 controlling retry policy for shell_systemctl_status."
+        },
+        "optional_param_6": {
+          "type": "string",
+          "description": "Extended configuration parameter #6 controlling retry policy for shell_systemctl_status."
+        },
+        "optional_param_7": {
+          "type": "string",
+          "description": "Extended configuration parameter #7 controlling retry policy for shell_systemctl_status."
+        },
+        "optional_param_8": {
+          "type": "string",
+          "description": "Extended configuration parameter #8 controlling retry policy for shell_systemctl_status."
+        },
+        "optional_param_9": {
+          "type": "string",
+          "description": "Extended configuration parameter #9 controlling retry policy for shell_systemctl_status."
+        },
+        "optional_param_10": {
+          "type": "string",
+          "description": "Extended configuration parameter #10 controlling retry policy for shell_systemctl_status."
+        },
+        "optional_param_11": {
+          "type": "string",
+          "description": "Extended configuration parameter #11 controlling retry policy for shell_systemctl_status."
+        },
+        "optional_param_12": {
+          "type": "string",
+          "description": "Extended configuration parameter #12 controlling retry policy for shell_systemctl_status."
+        },
+        "optional_param_13": {
+          "type": "string",
+          "description": "Extended configuration parameter #13 controlling retry policy for shell_systemctl_status."
+        },
+        "optional_param_14": {
+          "type": "string",
+          "description": "Extended configuration parameter #14 controlling retry policy for shell_systemctl_status."
+        },
+        "optional_param_15": {
+          "type": "string",
+          "description": "Extended configuration parameter #15 controlling retry policy for shell_systemctl_status."
+        },
+        "optional_param_16": {
+          "type": "string",
+          "description": "Extended configuration parameter #16 controlling retry policy for shell_systemctl_status."
+        },
+        "optional_param_17": {
+          "type": "string",
+          "description": "Extended configuration parameter #17 controlling retry policy for shell_systemctl_status."
+        },
+        "optional_param_18": {
+          "type": "string",
+          "description": "Extended configuration parameter #18 controlling retry policy for shell_systemctl_status."
+        },
+        "optional_param_19": {
+          "type": "string",
+          "description": "Extended configuration parameter #19 controlling retry policy for shell_systemctl_status."
+        }
+      },
+      "required": [
+        "query"
+      ]
+    }
+  },
+  {
+    "tool_name": "shell_env_inspect",
+    "server_name": "shell_mcp",
+    "description": "Enterprise MCP tool shell_env_inspect on server shell_mcp",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "query": {
+          "type": "string",
+          "description": "Primary execution query or filter expression"
+        },
+        "repo": {
+          "type": "string",
+          "description": "Target repository full name"
+        },
+        "command": {
+          "type": "string",
+          "description": "Shell command string to execute"
+        },
+        "optional_param_1": {
+          "type": "string",
+          "description": "Extended configuration parameter #1 controlling retry policy for shell_env_inspect."
+        },
+        "optional_param_2": {
+          "type": "string",
+          "description": "Extended configuration parameter #2 controlling retry policy for shell_env_inspect."
+        },
+        "optional_param_3": {
+          "type": "string",
+          "description": "Extended configuration parameter #3 controlling retry policy for shell_env_inspect."
+        },
+        "optional_param_4": {
+          "type": "string",
+          "description": "Extended configuration parameter #4 controlling retry policy for shell_env_inspect."
+        },
+        "optional_param_5": {
+          "type": "string",
+          "description": "Extended configuration parameter #5 controlling retry policy for shell_env_inspect."
+        },
+        "optional_param_6": {
+          "type": "string",
+          "description": "Extended configuration parameter #6 controlling retry policy for shell_env_inspect."
+        },
+        "optional_param_7": {
+          "type": "string",
+          "description": "Extended configuration parameter #7 controlling retry policy for shell_env_inspect."
+        },
+        "optional_param_8": {
+          "type": "string",
+          "description": "Extended configuration parameter #8 controlling retry policy for shell_env_inspect."
+        },
+        "optional_param_9": {
+          "type": "string",
+          "description": "Extended configuration parameter #9 controlling retry policy for shell_env_inspect."
+        },
+        "optional_param_10": {
+          "type": "string",
+          "description": "Extended configuration parameter #10 controlling retry policy for shell_env_inspect."
+        },
+        "optional_param_11": {
+          "type": "string",
+          "description": "Extended configuration parameter #11 controlling retry policy for shell_env_inspect."
+        },
+        "optional_param_12": {
+          "type": "string",
+          "description": "Extended configuration parameter #12 controlling retry policy for shell_env_inspect."
+        },
+        "optional_param_13": {
+          "type": "string",
+          "description": "Extended configuration parameter #13 controlling retry policy for shell_env_inspect."
+        },
+        "optional_param_14": {
+          "type": "string",
+          "description": "Extended configuration parameter #14 controlling retry policy for shell_env_inspect."
+        },
+        "optional_param_15": {
+          "type": "string",
+          "description": "Extended configuration parameter #15 controlling retry policy for shell_env_inspect."
+        },
+        "optional_param_16": {
+          "type": "string",
+          "description": "Extended configuration parameter #16 controlling retry policy for shell_env_inspect."
+        },
+        "optional_param_17": {
+          "type": "string",
+          "description": "Extended configuration parameter #17 controlling retry policy for shell_env_inspect."
+        },
+        "optional_param_18": {
+          "type": "string",
+          "description": "Extended configuration parameter #18 controlling retry policy for shell_env_inspect."
+        },
+        "optional_param_19": {
+          "type": "string",
+          "description": "Extended configuration parameter #19 controlling retry policy for shell_env_inspect."
+        }
+      },
+      "required": [
+        "query"
+      ]
+    }
+  },
+  {
+    "tool_name": "shell_archive_logs",
+    "server_name": "shell_mcp",
+    "description": "Enterprise MCP tool shell_archive_logs on server shell_mcp",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "query": {
+          "type": "string",
+          "description": "Primary execution query or filter expression"
+        },
+        "repo": {
+          "type": "string",
+          "description": "Target repository full name"
+        },
+        "command": {
+          "type": "string",
+          "description": "Shell command string to execute"
+        },
+        "optional_param_1": {
+          "type": "string",
+          "description": "Extended configuration parameter #1 controlling retry policy for shell_archive_logs."
+        },
+        "optional_param_2": {
+          "type": "string",
+          "description": "Extended configuration parameter #2 controlling retry policy for shell_archive_logs."
+        },
+        "optional_param_3": {
+          "type": "string",
+          "description": "Extended configuration parameter #3 controlling retry policy for shell_archive_logs."
+        },
+        "optional_param_4": {
+          "type": "string",
+          "description": "Extended configuration parameter #4 controlling retry policy for shell_archive_logs."
+        },
+        "optional_param_5": {
+          "type": "string",
+          "description": "Extended configuration parameter #5 controlling retry policy for shell_archive_logs."
+        },
+        "optional_param_6": {
+          "type": "string",
+          "description": "Extended configuration parameter #6 controlling retry policy for shell_archive_logs."
+        },
+        "optional_param_7": {
+          "type": "string",
+          "description": "Extended configuration parameter #7 controlling retry policy for shell_archive_logs."
+        },
+        "optional_param_8": {
+          "type": "string",
+          "description": "Extended configuration parameter #8 controlling retry policy for shell_archive_logs."
+        },
+        "optional_param_9": {
+          "type": "string",
+          "description": "Extended configuration parameter #9 controlling retry policy for shell_archive_logs."
+        },
+        "optional_param_10": {
+          "type": "string",
+          "description": "Extended configuration parameter #10 controlling retry policy for shell_archive_logs."
+        },
+        "optional_param_11": {
+          "type": "string",
+          "description": "Extended configuration parameter #11 controlling retry policy for shell_archive_logs."
+        },
+        "optional_param_12": {
+          "type": "string",
+          "description": "Extended configuration parameter #12 controlling retry policy for shell_archive_logs."
+        },
+        "optional_param_13": {
+          "type": "string",
+          "description": "Extended configuration parameter #13 controlling retry policy for shell_archive_logs."
+        },
+        "optional_param_14": {
+          "type": "string",
+          "description": "Extended configuration parameter #14 controlling retry policy for shell_archive_logs."
+        },
+        "optional_param_15": {
+          "type": "string",
+          "description": "Extended configuration parameter #15 controlling retry policy for shell_archive_logs."
+        },
+        "optional_param_16": {
+          "type": "string",
+          "description": "Extended configuration parameter #16 controlling retry policy for shell_archive_logs."
+        },
+        "optional_param_17": {
+          "type": "string",
+          "description": "Extended configuration parameter #17 controlling retry policy for shell_archive_logs."
+        },
+        "optional_param_18": {
+          "type": "string",
+          "description": "Extended configuration parameter #18 controlling retry policy for shell_archive_logs."
+        },
+        "optional_param_19": {
+          "type": "string",
+          "description": "Extended configuration parameter #19 controlling retry policy for shell_archive_logs."
+        }
+      },
+      "required": [
+        "query"
+      ]
+    }
+  }
+]
