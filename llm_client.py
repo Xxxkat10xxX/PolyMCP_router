@@ -1,9 +1,15 @@
 import os
+import re
 import json
 from typing import Type, TypeVar
 from pydantic import BaseModel
 import tiktoken
+from openai import OpenAI
+from dotenv import load_dotenv
 from contracts import SubTask, ToolCallPayload
+
+# Загружаем переменные из локального файла .env
+load_dotenv()
 
 T = TypeVar("T", bound=BaseModel)
 _ENCODER = tiktoken.get_encoding("cl100k_base")
@@ -16,8 +22,21 @@ def count_tokens(text_or_dict: object) -> int:
     return len(_ENCODER.encode(text_or_dict))
 
 
+def _extract_json_string(raw_text: str) -> str:
+    """Вырезает чистый JSON из текстового ответа gpt-6-luna, даже если есть markdown-блоки."""
+    cleaned = raw_text.strip()
+    fence_match = re.search(r"```(?:json)?\s*(\{.*?\})\s*```", cleaned, flags=re.DOTALL)
+    if fence_match:
+        return fence_match.group(1).strip()
+    start = cleaned.find("{")
+    end = cleaned.rfind("}")
+    if start != -1 and end != -1 and end > start:
+        return cleaned[start : end + 1]
+    return cleaned
+
+
 def _smart_offline_fallback(user_prompt: str, response_schema: Type[T]) -> T:
-    """Автоматический фоллбэк при сбоях API или отсутствии ключа."""
+    """Автоматический фоллбэк при сбоях сети, отсутствии ключа или ошибках API."""
     schema_name = response_schema.__name__
 
     # Agent 1: Декомпозиция запроса в DAG (3 шага с параллельными ветками 1 и 2)
@@ -97,23 +116,53 @@ def call_gemini_structured(
     system_prompt: str,
     user_prompt: str,
     response_schema: Type[T],
-    model_name: str = "gemini-1.5-pro",
+    model_name: str = "gpt-6-luna",
 ) -> T:
-    api_key = os.getenv("GEMINI_API_KEY", "").strip()
-    if api_key and api_key != "OFFLINE":
+    """
+    Вызывает модель gpt-6-luna через API aitunnel.ru и преобразует текстовый ответ
+    в строго типизированный Pydantic-объект response_schema.
+    """
+    api_key = os.getenv("AITUNNEL_API_KEY", "").strip()
+    base_url = os.getenv("AITUNNEL_BASE_URL", "https://api.aitunnel.ru/v1/").strip()
+    target_model = os.getenv("AITUNNEL_MODEL", model_name).strip()
+
+    if api_key and api_key != "OFFLINE" and not api_key.startswith("ваш_"):
         try:
-            import google.generativeai as genai
-            genai.configure(api_key=api_key)
-            model = genai.GenerativeModel(model_name=model_name, system_instruction=system_prompt)
-            response = model.generate_content(
-                user_prompt,
-                generation_config=genai.GenerationConfig(
-                    response_mime_type="application/json",
-                    response_schema=response_schema,
-                    temperature=0.1,
-                ),
+            client = OpenAI(
+                api_key=api_key,
+                base_url=base_url,
             )
-            return response_schema.model_validate_json(response.text)
+
+            # Передаем JSON-схему контракта прямо в промпт, чтобы текстовый ответ
+            # модели gpt-6-luna гарантированно парсился в нужную Pydantic-модель
+            json_schema_str = json.dumps(
+                response_schema.model_json_schema(), ensure_ascii=False, indent=2
+            )
+            strict_system_prompt = (
+                f"{system_prompt}\n\n"
+                "КРИТИЧЕСКОЕ ПРАВИЛО ВЫВОДА: Верни ТОЛЬКО валидный JSON-объект без лишнего текста "
+                "и комментариев, строго соответствующий следующей JSON Schema:\n"
+                f"{json_schema_str}"
+            )
+
+            response = client.chat.completions.create(
+                model=target_model,
+                messages=[
+                    {"role": "system", "content": strict_system_prompt},
+                    {"role": "user", "content": user_prompt},
+                ],
+                temperature=0.1,
+            )
+
+            raw_content = response.choices[0].message.content or ""
+            json_payload = _extract_json_string(raw_content)
+            return response_schema.model_validate_json(json_payload)
+
         except Exception as e:
-            print(f"[PolyMCP Fallback] API недоступен ({e}), переключение на локальный эмулятор.")
+            print(f"[PolyMCP Fallback] Ошибка вызова gpt-6-luna ({e}), включен локальный эмулятор.")
+
     return _smart_offline_fallback(user_prompt, response_schema)
+
+
+# Синоним для удобства, если кто-то из участников назовет функцию call_llm_structured
+call_llm_structured = call_gemini_structured
