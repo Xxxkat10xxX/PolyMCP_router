@@ -13,7 +13,7 @@ load_dotenv()
 
 T = TypeVar("T", bound=BaseModel)
 _ENCODER = tiktoken.get_encoding("cl100k_base")
-
+_API_DEAD = False
 
 def count_tokens(text_or_dict: object) -> int:
     """Честный подсчет токенов через tiktoken для метрик КП2."""
@@ -122,15 +122,18 @@ def call_gemini_structured(
     Вызывает модель gpt-6-luna через API aitunnel.ru и преобразует текстовый ответ
     в строго типизированный Pydantic-объект response_schema.
     """
+    global _API_DEAD
     api_key = os.getenv("AITUNNEL_API_KEY", "").strip()
     base_url = os.getenv("AITUNNEL_BASE_URL", "https://api.aitunnel.ru/v1/").strip()
     target_model = os.getenv("AITUNNEL_MODEL", model_name).strip()
 
-    if api_key and api_key != "OFFLINE" and not api_key.startswith("ваш_"):
+    if not _API_DEAD and api_key and api_key != "OFFLINE" and not api_key.startswith("ваш_"):
         try:
             client = OpenAI(
                 api_key=api_key,
                 base_url=base_url,
+                timeout=60.0,
+                max_retries=1,
             )
 
             # Передаем JSON-схему контракта прямо в промпт, чтобы текстовый ответ
@@ -158,7 +161,9 @@ def call_gemini_structured(
             json_payload = _extract_json_string(raw_content)
             return response_schema.model_validate_json(json_payload)
 
+
         except Exception as e:
+            _API_DEAD = True
             print(f"[PolyMCP Fallback] Ошибка вызова gpt-6-luna ({e}), включен локальный эмулятор.")
 
     return _smart_offline_fallback(user_prompt, response_schema)
