@@ -1,0 +1,21 @@
+case_id,benchmark_standard,topology,steps,raw_schema_tokens,pruned_schema_tokens,schema_saving_legroom_pct,baseline_a_all_tools_tokens,baseline_b_static_tokens,baseline_c_llm_router_tokens,polymcp_context_tokens,context_saving_attncompress_pct,tool_recall_pct,pass_at_1_rate_pct,final_success_with_healing_pct
+1,SWE-bench Verified,chain,2,1847,672,63.62,7608,5452,3292,1156,78.8,100.0,100.0,100.0
+2,SWE-bench Verified,chain,1,926,335,63.82,6879,2881,1642,576,80.01,100.0,100.0,100.0
+3,SWE-bench Verified,parallel,2,1848,584,68.4,7546,5708,3231,1079,81.1,100.0,100.0,100.0
+4,SWE-bench Verified,chain,2,1847,672,63.62,7620,5464,3304,1159,78.79,100.0,100.0,100.0
+5,AgentBench (DB/OS),parallel,2,1844,608,67.03,7555,5394,3236,1092,79.76,100.0,100.0,100.0
+6,AgentBench (DB/OS),chain,2,1847,608,67.08,7559,5398,3243,1096,79.7,100.0,100.0,100.0
+7,AgentBench (DB/OS),parallel,2,1844,608,67.03,7554,5393,3235,1082,79.94,100.0,100.0,100.0
+8,AgentBench (DB/OS),single,2,1848,584,68.4,7546,5708,3231,1079,81.1,100.0,100.0,100.0
+9,GAIA / MASEval,diamond,3,2768,943,65.93,8278,8282,4883,1675,79.78,100.0,100.0,100.0
+10,GAIA / MASEval,diamond,3,2772,944,65.95,8277,8281,4886,1666,79.88,100.0,100.0,100.0
+11,GAIA / MASEval,diamond,3,2764,921,66.68,8287,8291,4888,1662,79.95,100.0,100.0,100.0
+12,GAIA / MASEval,diamond,3,2777,943,66.04,8276,8280,4890,1673,79.79,100.0,100.0,100.0
+13,MultiAgentBench,diamond,3,2774,942,66.04,8265,8269,4876,1661,79.91,100.0,100.0,100.0
+14,MultiAgentBench,parallel,2,1847,606,67.19,7549,5711,3233,1095,80.83,100.0,100.0,100.0
+15,MultiAgentBench,chain,2,1837,608,66.9,7562,5401,3236,1099,79.65,100.0,100.0,100.0
+16,MultiAgentBench,diamond,3,2775,944,65.98,8271,8275,4883,1669,79.83,100.0,100.0,100.0
+17,ProtocolBench,chain,2,1839,608,66.94,7608,5447,3284,1100,79.81,100.0,50.0,100.0
+18,ProtocolBench,chain,2,1852,606,67.28,7545,5707,3234,1099,80.74,100.0,50.0,100.0
+19,ProtocolBench,single,1,921,271,70.58,6382,2379,1140,490,79.4,100.0,100.0,100.0
+20,ProtocolBench,chain,3,2768,942,65.97,8280,8284,4885,1676,79.77,100.0,100.0,100.0

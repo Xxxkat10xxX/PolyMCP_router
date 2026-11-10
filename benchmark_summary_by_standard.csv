@@ -1,0 +1,6 @@
+benchmark_standard,schema_saving_legroom_pct,context_saving_attncompress_pct,tool_recall_pct,pass_at_1_rate_pct,final_success_with_healing_pct
+AgentBench (DB/OS),67.4,80.1,100.0,100.0,100.0
+GAIA / MASEval,66.2,79.8,100.0,100.0,100.0
+MultiAgentBench,66.5,80.1,100.0,100.0,100.0
+ProtocolBench,67.7,79.9,100.0,75.0,100.0
+SWE-bench Verified,64.9,79.7,100.0,100.0,100.0
